@@ -5,3 +5,10 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // get routes from flask
+const init = async() => {
+    reviews = await ((await fetch('/api/v1.0/airlines_reviews')).json());
+
+    console.log(reviews);
+};
+
+init();
