@@ -1,0 +1,30 @@
+body {
+    background: teal;
+    margin: 0;
+}
+
+body, #map {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: gray;
+    padding: 10px;
+    border-bottom: 5px solid white;
+}
+#map {
+    width: 90%;
+    height: 40vh;
+    margin: 5%;
+    background: beige;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+/* additional aesthetics for gauges/charts */
