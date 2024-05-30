@@ -13,3 +13,4 @@ def split_to_via(df, column):
     df['Via'] = split_values[2].str.split().str.join(' ').str.strip()
     
     return df
+
