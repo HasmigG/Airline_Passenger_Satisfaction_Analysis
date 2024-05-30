@@ -18,7 +18,7 @@ We propose to build a predictive model for customer satisfaction of airplane tra
 
 4. Evaluation: We will evaluate the model's performance using metrics such as accuracy, precision, recall, and F1 score. We will also analyze the model's ability to identify the key drivers of customer satisfaction.
 
-5. Recommendations: Based on the insights from the predictive model, we will provide recommendations to Singapore Airlines on how to improve customer satisfaction across different factors.
+5. Recommendations: Based on the insights from the predictive model, we will provide recommendations to Airline on how to improve customer satisfaction across different factors.
 
 ### Deliverables:
 1. Predictive model for forecasting customer satisfaction.
