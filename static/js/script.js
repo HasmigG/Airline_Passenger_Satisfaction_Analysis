@@ -12,3 +12,5 @@ const init = async() => {
 };
 
 init();
+
+const url = `http://api.openweathermap.org/geo/1.0/direct?limit=5&appid=${api_key}&q=`;
