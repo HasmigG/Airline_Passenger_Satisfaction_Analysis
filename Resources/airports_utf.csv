@@ -74,6 +74,7 @@ Amman,Jordan,AMM,Middle East
 Jordan,Jordan,AMM,Middle East
 "Amman, Queen Alia Intl",Jordan,AMM,Middle East
 Amritsar,India,ATQ,Asia
+Amesterdam,Netherlands,AMS,Europe
 Amsterdam,Netherlands,AMS,Europe
 "Amsterdam, Schiphol",Netherlands,AMS,Europe
 Anand,India,QNB,Asia
@@ -153,10 +154,12 @@ Bamako,Mali,BKO,Africa
 Bambari,Central African Republic,BBY,Africa
 Bandar Seri Begawan,Brunei,BWN,Southeast Asia
 Begaluru,India,BLR,Asia
+"Bangalore, India",India,BLR,Asia
 Bangalore,India,BLR,Asia
 Kempegowda Bengaluru,India,BLR,Asia
 Bengaluru,India,BLR,Asia
 Bangassou,Central African Republic,BGU,Africa
+Subarnabhumi,Thailand,BKK,Southeast Asia
 Thailand,Thailand,BKK,Southeast Asia
 Bangkok Suvarnabhuni,Thailand,BKK,Southeast Asia
 "Bangkok,",Thailand,BKK,Southeast Asia
@@ -382,6 +385,7 @@ Christmas Line,Iceland,CXI,Europe
 Chub Cay,Bahamas,CCZ,Carribbean
 Churchill,Canada,YYQ,North America
 Cienfuegos,Canada,CFG,North America
+Cincinnati,USA,CVG,North America
 "Cincinnati, OH",USA,CVG,North America
 Ciudad Del Carmen,Mexico,CME,North America
 Ciudad Juarez,Mexico,CJS,North America
@@ -501,6 +505,7 @@ Djerba,Tunisia,DJE,Africa
 Djibouti,Djibouti,JIB,Africa
 Hamad,Qatar,DOH,Middle East
 Diha,Qatar,DOH,Middle East
+Dohs,Qatar,DOH,Middle East
 Doha,Qatar,DOH,Middle East
 Dongguan,"Guangdong, China",DGM,Asia
 Dortmund,Germany,DTM,Europe
@@ -743,6 +748,7 @@ Hinchinbrook Island,Australia,HNK,South Pacific
 Hiroshima,Japan,HIJ,Asia
 Hiroshima International,Japan,HIJ,Asia
 Hi Chi Minh City,Viet Nam,SGN,Southeast Asia
+Ho Chi Min City,Viet Nam,SGN,Southeast Asia
 Ho Chi Minh city,Viet Nam,SGN,Southeast Asia
 Ho Chi Minh,Viet Nam,SGN,Southeast Asia
 Ho chi Minh City,Viet Nam,SGN,Southeast Asia
@@ -1224,7 +1230,8 @@ Medellin,Colombia,MDE,South America
 "Medford, OR",USA,MFR,North America
 Medina,Saudi Arabia,MED,Middle East
 Meekatharra,Australia,MKR,South Pacific
-Melbourne Australia,,AustraliaMEL,South Pacific
+Mebourne,Australia,MEL,South Pacific
+Melbourne Australia,Australia,MEL,South Pacific
 Melbourne,Australia,MEL,South Pacific
 Melbourne - Tullamarine,Australia,MEL,South Pacific
 "Melbourne, FL",USA,MLB,North America
@@ -1295,8 +1302,10 @@ Montenegro,Brazil,QGF,South America
 "Monterey, CA",USA,MRY,North America
 Monterrey,Mexico,MTY,North America
 Monterrey - Aeropuerto Del Norte,Mexico,NTR,North America
+Montevideo,Uruguay,MVD,South America
 Montevideo - Carrasco,Uruguay,MVD,South America
 "Montgomery, AL",USA,MGM,North America
+Montpellier,France,MPL,Europe
 Montpellier - Frejorgues,France,MPL,Europe
 Montréal,Canada,YMQ,North America
 Montreal,Canada,YMQ,North America
@@ -1373,6 +1382,7 @@ Nassau,Bahamas,NAS,Carribbean
 Natal,Brazil,NAT,South America
 Nausori,Fiji/Suva,SUV,South Pacific
 Nawab Shah,Pakistan,WNS,Middle East
+NDjamena,Chad,NDJ,Africa
 N'Djamena,Chad,NDJ,Africa
 N'Dola,Zambia,NLA,Africa
 Nelson,New Zealand,NSN,South Pacific
@@ -1506,6 +1516,7 @@ Paphos,Cyprus,PFO,Europe
 Paraburdoo,Australia,PBO,South Pacific
 Paramaribo - Zanderij Int'l,Suriname,PBM,Africa
 Paris,France,PAR,Europe
+"Paris, France",France,PAR,Europe
 Paris-CDG,France,CDG,Europe
 París CDG,France,CDG,Europe
 Paris CDG,France,CDG,Europe
@@ -1539,10 +1550,12 @@ Phalaborwa,South Africa,PHW,Africa
 Philadelphia,USA,PHL,North America
 "Philadelphia, PA - Int'l",USA,PHL,North America
 Pnom Penh,Cambodia,PNH,Southeast Asia
+Phnom Phen,Cambodia,PNH,Southeast Asia
 Phnom Penh,Cambodia,PNH,Southeast Asia
 Phnom Penh - Pochentong,Cambodia,PNH,Southeast Asia
 Phoenix,USA,PHX,North America
 "Phoenix, AZ - Sky Harbor Int'l",USA,PHX,North America
+Puket,Thailand,HKT,Southeast Asia
 Phuket,Thailand,HKT,Southeast Asia
 "Pierre, SD",USA,PIR,North America
 Pietermaritzburg,South Africa,PZB,Africa
@@ -1556,6 +1569,7 @@ Plettenberg Bay,South Africa,PBZ,Africa
 "Pocatello, ID",USA,PIH,North America
 Podgorica,Yugoslavia,TGD,Eastern Europe
 Pohnpei,Micronesia,PNI,South Pacific
+Pointe-à-Pitre,Guadeloupe,PTP,Caribbean
 Point-a-Pitre,Guadeloupe,PTP,Caribbean
 Pointe a Pitre,Guadeloupe,PTP,Caribbean
 Pointe Noire,Congo,PNR,Africa
@@ -1622,6 +1636,7 @@ Queenstown,New Zealand,ZQN,South Pacific
 Quetta,Pakistan,UET,Middle East
 Quimper,France,UIP,Europe
 "Quincy, IL",USA,UIN,North America
+Quito,Ecuador,UIO,South America
 Quito - Mariscal Sucr,Ecuador,UIO,South America
 Rabat,Morocco,RBA,Africa
 Rabat - Sale,Morocco,RBA,Africa
@@ -1762,6 +1777,8 @@ Santa Rosalia,Mexico,SRL,North America
 Santa Rosalia,Colombia,SSL,South America
 Santander,Spain,SDR,Europe
 Santiago - Antonio Maceo Airport,Cuba,SCU,Caribbean
+Santiago de Cile,Chile,SCL,South America
+Santiago de Chile,Chile,SCL,South America
 Santiago de Chile - Arturo Merino Benitez,Chile,SCL,South America
 Santiago de Compostela,Spain,SCQ,Europe
 Santo,Vanuatu,SON,South Pacific
@@ -1800,6 +1817,7 @@ Seoul Incheon,South Korea,ICN,Asia
 Seoul Incheaon,South Korea,ICN,Asia
 Incheon,South Korea,ICN,Asia
 Seoul - Incheon Int'l Airport,South Korea,ICN,Asia
+Gimpo,South Korea,SEL,Asia
 Seoul Gimpo,South Korea,SEL,Asia
 Seoul - Kimpo,South Korea,SEL,Asia
 Sevilla,Spain,SVQ,Europe
@@ -1833,6 +1851,7 @@ Siem Reap,Cambodia,SAI,Southeast Asia
 Silistra,Bulgaria,SLS,Eastern Europe
 Simferopol,Ukraine,SIP,Eastern Europe
 Sindhri,Pakistan,MPD,Middle East
+Singaphore,Singapore,SIN,Asia
 Singapore Return,Singapore,SIN,Asia
 Singaporec,Singapore,SIN,Asia
 Sinhapore,Singapore,SIN,Asia
@@ -1885,7 +1904,9 @@ St Louis,USA,STL,North America
 "St. Louis - Lambert, MO",USA,STL,North America
 St. Lucia Hewanorra,St. Lucia,UVF,Caribbean
 St. Lucia Vigle,St. Lucia,SLU,Caribbean
+Sint Maarten,Netherlands Antilles,SXM,Caribbean
 St. Marteen,Netherlands Antilles,SXM,Caribbean
+St Martin,St. Martin,SFG,Caribbean
 St. Martin,St. Martin,SFG,Caribbean
 St.Petersburg,Russia,LED,Eastern Europe
 St Petersburgh,Russia,LED,Eastern Europe
@@ -2033,6 +2054,7 @@ Toronto - Lester B. Pearson,Canada,YYZ,North America
 Toronto Island,Canada,YTZ,North America
 Tortola,Virgin Islands,EIS,Caribbean
 Touho,New Caledonia,TOU,South Pacific
+Toulon,France,TLN,Europe
 Toulouse,France,TLS,Europe
 Toulouse - Blagnac,France,TLS,Europe
 Townsville,Australia,TSV,South Pacific
