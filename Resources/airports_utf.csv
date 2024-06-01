@@ -1,4 +1,4 @@
-City,Country,Code,Continent
+﻿City,Country,Code,Continent
 (Mali) Losinj - Losinj Arpt,Croatia (Hrvatska),LSZ,Eastern Europe
 Aarhus,Denmark,AAR,Europe
 Abadan,Iran,ABD,Middle East
@@ -7,17 +7,20 @@ Aberdeen,United Kingdom,ABZ,Europe
 "Aberdeen, SD",USA,ABR,North America
 Abidjan,Ivory Coast,ABJ,Africa
 "Abilene, TX",USA,ABI,North America
-Abu Dhabi,UAE,AUH,Middle East
+Abu Dhabi,United Arab Emirates,AUH,Middle East
 Abu Rudeis,Egypt,AUE,Africa
 Abu Simbel,Egypt,ABS,Africa
+Abuja,Nigeria,ABV,Africa
 Abuja International,Nigeria,ABV,Africa
 Acapulco,Mexico,ACA,North America
 Accra,Ghana,ACC,Africa
 Adana,Turkey,ADA,Middle East
 Addis Ababa,Ethiopia,ADD,Africa
+Adélaïde,Australia,ADL,South Pacific
 Adelaide,Australia,ADL,South Pacific
 Aden,Yemen,ADE,Middle East
 Adler/Sochi,Russia,AER,Eastern Europe
+Sochi,Russia,AER,Eastern Europe
 Agades,Niger,AJY,Africa
 Agadir,Morocco,AGA,Africa
 Agana,Guam,SUM,South Pacific
@@ -34,6 +37,8 @@ Al Ain,United Arab Emirates,AAN,Middle East
 Al Arish,Egypt,AAC,Africa
 Al Arish,Egypt,AAC,Africa
 Al Hoceima,Morocco,AHU,Africa
+Al Maktoum,Jebel Ali,DWC,Middle East
+Alanya,Turkey,GZP,Middle East
 Albany,Australia,ALH,South Pacific
 "Albany, GA",USA,ABY,North America
 "Albany, NY",USA,ALB,North America
@@ -45,14 +50,17 @@ Aleppo,Syria,ALP,Middle East
 Alesund,Norway,AES,Europe
 Alexander Bay,South Africa,ALJ,Africa
 "Alexandria, El Nhouza Airport",Egypt,ALY,Africa
+Alexandria,USA,AEX,North America
 "Alexandria, La",USA,ESF,North America
-Alfujairah (Fujairah),UAE,FJR,Middle East
+Alfujairah (Fujairah),United Arab Emirates,FJR,Middle East
 Alghero Sassari,Italy,AHO,Europe
 Algiers,Algeria,ALG,Africa
 Alicante,Spain,ALC,Europe
 Alice Springs,Australia,ASP,South Pacific
 Alldays,South Africa,ADY,Africa
 "Allentown, PA",USA,ABE,North America
+Almaty,Kazakhstan,ALA,Asia
+Kazakhstan,Kazakhstan,ALA,Asia
 Alma Ata,Kazakhstan,ALA,Asia
 Almeria,Spain,LEI,Europe
 Alta,Norway,ALF,Europe
@@ -61,6 +69,7 @@ Altenrhein,Switzerland,ACH,Europe
 Amami,Japan,ASJ,Asia
 "Amarillo, TX",USA,AMA,North America
 "Amman, Civil - Marka Airport",Jordan,ADJ,Middle East
+Amman,Jordan,AMM,Middle East
 "Amman, Queen Alia Intl",Jordan,AMM,Middle East
 Amritsar,India,ATQ,Asia
 Amsterdam,Netherlands,AMS,Europe
@@ -71,12 +80,17 @@ Ancona,Italy,AOI,Europe
 Andorra La Vella H/P,Andorra,ALV,Europe
 Anguilla,Anguilla,AXA,Carribbean
 Anjouan,Comoros (Comores),AJN,Africa
-Ankara,Turkey,ANK,Middle East
+Ankara-Etimesgut Airport,Turkey,ANK,Middle East
+Ankara,Turkey,ESB,Middle East
+Ankara Int'l,Turkey,ESB,Middle East
 "Ann Arbor, MI",USA,ARB,North America
 Annaba,Algeria,AAE,Africa
 Annecy,France,NCY,Europe
 "Anniston, AL",USA,ANB,North America
+Antaya,Turkey,AYT,Middle East
+Antalia,Turkey,AYT,Middle East
 Antalya,Turkey,AYT,Middle East
+Antanarivo,Madagascar,TNR,Africa
 Antananarivo (Tanannarive),Madagascar,TNR,Africa
 Antigua,Antigua,ANU,Carribbean
 Antwerp,Belgium,ANR,Europe
@@ -107,6 +121,7 @@ Atlanta,USA,ATL,North America
 "Atlanta, Hartsfield Atlanta Int'l Airport",USA,ATL,North America
 "Atlantic City, NJ",USA,ACY,North America
 "Attawapiskat, NT",Canada,YAT,North America
+Aucklqnd,New Zealand,AKL,South Pacific
 Auckland,New Zealand,AKL,South Pacific
 Augsburg,Germany,AGB,Europe
 "Augusta, GA",USA,AGS,North America
@@ -116,6 +131,7 @@ Aurillac,France,AUR,Europe
 Ayers Rock,Australia,AYQ,South Pacific
 Ayr,Australia,AYR,South Pacific
 Badajoz,Spain,BJZ,Europe
+Baghdad,Iraq,BGW,Middle East
 "Bagdad, Al Muthana",Iraq,BGW,Middle East
 "Bagdad, Saddam International",Iraq,SDA,Middle East
 Bagdogra,India,IXB,Asia
@@ -123,15 +139,21 @@ Bahawalpur,Pakistan,BHV,Middle East
 Bahrain,Bahrain,BAH,Middle East
 "Bakersfield, CA",USA,BFL,North America
 Baku,Azerbaijan,BAK,Eastern Europe
+Balkhash,Kazakhstan,BXH,Eastern Europe
 Ballina,Australia,BNK,South Pacific
 Baltimore Washington Int'l Airport; MD,USA,BWI,North America
 Bamaga,Australia,ABM,South Pacific
 Bamako,Mali,BKO,Africa
 Bambari,Central African Republic,BBY,Africa
 Bandar Seri Begawan,Brunei,BWN,Southeast Asia
+Begaluru,India,BLR,Asia
 Bangalore,India,BLR,Asia
+Kempegowda Bengaluru,India,BLR,Asia
 Bengaluru,India,BLR,Asia
 Bangassou,Central African Republic,BGU,Africa
+Thailand,Thailand,BKK,Southeast Asia
+Bangkok Suvarnabhuni,Thailand,BKK,Southeast Asia
+"Bangkok,",Thailand,BKK,Southeast Asia
 Bangkok,Thailand,BKK,Southeast Asia
 "Bangor, ME",USA,BGR,North America
 Bangui,Central African Republic,BGF,Africa
@@ -146,6 +168,7 @@ Baronda,India,BDQ,Asia
 Barranquilla,Colombia,BAQ,South America
 Basel,Switzerland,BSL,Europe
 Basel/Mulhouse,Switzerland/France,EAP,Europe
+Basra,Iraq,BSR,Middle East
 "Basra, Basrah",Iraq,BSR,Middle East
 Bastia,France,BIA,Europe
 "Baton Rouge, La",USA,BTR,North America
@@ -161,6 +184,7 @@ Belem,Brazil,BEL,South America
 Belfast - Harbour,United Kingdom,BHD,Europe
 Belfast International,United Kingdom,BFS,Europe
 Belgaum,India,IXG,Asia
+Belgrade,Yugoslavia,BEG,Eastern Europe
 Belgrad (Beograd),Yugoslavia,BEG,Eastern Europe
 Belize City,Belize,BZE,Central America
 "Bellingham, WA",USA,BLI,North America
@@ -173,6 +197,8 @@ Berberati,Central African Republic,BBT,Africa
 Bergamo,Italy,BGY,Europe
 Bergen,Norway,BGO,Europe
 Berlin,Germany,BER,Europe
+Berlin TXL,Germany,SXF,Europe
+Berlin Tegel,Germany,SXF,Europe
 "Berlin, Schoenefeld",Germany,SXF,Europe
 "Berlin, Tegel",Germany,TXL,Europe
 Bermuda,Bermuda,BDA,Carribbean
@@ -187,6 +213,7 @@ Bilbao,Spain,BIO,Europe
 Billund,Denmark,BLL,Europe
 Bintulu,Malaysia,BTU,Southeast Asia
 Biraro,Central African Republic,IRO,Africa
+Birmingham UK,United Kingdom,BHX,Europe
 Birmingham,United Kingdom,BHX,Europe
 "Birmingham, AL",USA,BHM,North America
 "Bismarck/Mandan, ND",USA,BIS,North America
@@ -202,6 +229,7 @@ Boa Vista,Brazil,BVB,South America
 Bobo/Dioulasso,Burkina Faso,BOY,Africa
 Bodo,Norway,BOO,Europe
 Bodrum,Turkey,BJV,Middle East
+Bogotá,Colombia,BOG,South America
 Bogota,Colombia,BOG,South America
 "Boise, ID",USA,BOI,North America
 Bologna,Italy,BLQ,Europe
@@ -232,6 +260,7 @@ Bria,Central African Republic,BIV,Africa
 "Bridgeport, CT",USA,BDR,North America
 "Bridgetown, Grantley Adams Int'l",Barbados,BGI,Carribbean
 Brindisi,Italy,BDS,Europe
+Brisibane,Australia,BNE,South Pacific
 Brisbane,Australia,BNE,South Pacific
 Bristol,United Kingdom,BRS,Europe
 Broennoeysund,Norway,BNN,Europe
@@ -239,6 +268,7 @@ Broken Hill,Australia,BHQ,South Pacific
 "Brookings, SD",USA,BKX,North America
 Broome,Australia,BME,South Pacific
 "Brunswick, GA",USA,BQK,North America
+Bruxelles,Belgium,BRU,Europe
 Brussels,Belgium,BRU,Europe
 Bucaramanga,Colombia,BGA,South America
 Bucharest,Romania,BUH,Eastern Europe
@@ -265,15 +295,20 @@ Cairns,Australia,CNS,South Pacific
 Cairo,Egypt,CAI,Africa
 Cairo Int'l,Egypt,CAI,Africa
 Calcutta (Kolkata) - Netaji Subhas Chandra,India,CCU,Asia
+Calgary,Canada,YYC,North America
 Calgary/Banff,Canada,YYC,North America
 Cali,Colombia,CLO,South America
+Kozhikode,India,CCJ,Asia
+Kozikhode,India,CCJ,Asia
 Calicut,India,CCJ,Asia
 Calvi,France,CLY,Europe
 Cambridge Bay,Canada,YCB,North America
 Cambrigde,United Kingdom,CBG,Europe
 Campo Grande,Brazil,CGR,South America
 Canberra,Australia,CBR,South Pacific
+Cancún,Mexico,CUN,North America
 Cancun,Mexico,CUN,North America
+Cape town,South Africa,CPT,Africa
 Cape Town,South Africa,CPT,Africa
 Caracas,Venezuela,CCS,South America
 Cardiff,United Kingdom,CWL,Europe
@@ -306,11 +341,16 @@ Chania,Greece,CHQ,Europe
 Charters Towers,Australia,CXT,South Pacific
 "Chattanooga, TN",USA,CHA,North America
 Chengdu,"Sichuan, China",CTU,Asia
+Chenna,India,MAA,Asia
 Chennai,India,MAA,Asia
+Chennai return,India,MAA,Asia
 Chennai (Madras),India,MAA,Asia
 "Cheyenne, WY",USA,CYS,North America
 Chiang Mai,Thailand,CNX,Southeast Asia
 Chiba City,Japan,QCB,Asia
+Chicago O'Hare (ORD),USA,ORD,North America
+Chicago,USA,ORD,North America
+Chicago O'Hare,USA,ORD,North America
 "Chicago O'Hare Int'l Airport, IL",USA,ORD,North America
 "Chicago, IL",USA,CHI,North America
 "Chicago, Midway, IL",USA,MDW,North America
@@ -319,6 +359,8 @@ Chichen Itza,Mexico,CZA,North America
 "Chihuahua, Gen Fierro Villalobos",Mexico,CUU,North America
 Chios,Greece,JKH,Europe
 Chipata,Zambia,CIP,Africa
+Chisinau,Moldova,RMO,Eastern Europe
+Chișinău,Moldova,RMO,Eastern Europe
 Chita (Tschita),Russia,HTA,Eastern Europe
 Chitose,Japan,CTS,Asia
 Chitral,Pakistan,CJL,Middle East
@@ -334,13 +376,17 @@ Ciudad Del Carmen,Mexico,CME,North America
 Ciudad Juarez,Mexico,CJS,North America
 Ciudad Obregon,Mexico,CEN,North America
 Ciudad Victoria,Mexico,CVM,North America
+Clark,Phillippines,CRK,Southeast Asia
 "Clarksburg, WV",USA,CKB,North America
 Clermont,Australia,CMQ,South Pacific
 Clermont Ferrand,France,CFE,Europe
 "Cleveland, Burke Lakefront, OH",USA,BKL,North America
 "Cleveland, Hopkins, OH",USA,CLE,North America
 Cluj,Romania,CLJ,Eastern Europe
+Cluj-Napoca,Romania,CLJ,Eastern Europe
+"Cluj,Romania",Romania,CLJ,Eastern Europe
 Cochabamba,Bolivia,CBB,South America
+Cochi,India,COK,Asia
 Cochin,India,COK,Asia
 "Cody/Powell/Yellowstone, WY",USA,COD,North America
 "Coffmann Cove, AK",USA,KCC,North America
@@ -351,6 +397,7 @@ Colima,Mexico,CLQ,North America
 Collinsville,Australia,KCE,South Pacific
 Cologne,Germany,CGN,Europe
 Cologne (Koeln)/Bonn,Germany,CGN,Europe
+"Colombo, Sri Lanka",Sri Lanka,CMB,Asia
 Colombo,Sri Lanka,CMB,Asia
 "Colorado Springs, CO",USA,COS,North America
 "Columbia, SC",USA,CAE,North America
@@ -359,6 +406,7 @@ Colombo,Sri Lanka,CMB,Asia
 Conakry,Guinea,CKY,South America
 "Concord, CA",USA,CCR,North America
 Constantine,Algeria,CZL,Africa
+Constanta,Romania,CND,Eastern Europe
 Constanza,Romania,CND,Eastern Europe
 Coober Pedy,Australia,CPD,South Pacific
 Cooktown,Australia,CTN,South Pacific
@@ -379,12 +427,16 @@ Culiacan,Mexico,CUL,North America
 Curacao,Netherlands Antilles,CUR,Caribbean
 Curitiba,Brazil,CWB,South America
 Da Nang,Vietnam,DAD,Southeast Asia
+Senegal,Senegal,DKR,Africa
 Dakar,Senegal,DKR,Africa
 Dalaman,Turkey,DLM,Middle East
 Dalby,Australia,DBY,South Pacific
 Dalian,"Liaoning, China",DLC,Asia
 Dallas,USA,DAL,North America
 "Dallas, Love Field, TX",USA,DAL,North America
+Dallas Fort-Worth,USA,DFW,North America
+Dallas	Fort-Worth,USA,DFW,North America
+Dallas Fort Worth,USA,DFW,North America
 Dallas Ft Worth,USA,DFW,North America
 "Dallas/Ft. Worth, TX",USA,DFW,North America
 Daloa,Ivory Coast,DJO,Africa
@@ -393,6 +445,8 @@ Dammam,Saudi Arabien,DMM,Middle East
 "Dammam, King Fahad Int'l",Saudi Arabien,DMM,Middle East
 Danang,Vietnam,DAD,Southeast Asia
 "Danville, VA",USA,DAN,North America
+Dar es salaam,Tanzania,DAR,Africa
+Dar Es Salaam,Tanzania,DAR,Africa
 Dar es Salaam,Tanzania,DAR,Africa
 Dar es Salam (Daressalam),Tanzania,DAR,Africa
 Darwin,Australia,DRW,South Pacific
@@ -401,21 +455,26 @@ Daydream Island,Australia,DDI,South Pacific
 "Daytona Beach, FL",USA,DAB,North America
 "Decatur, IL",USA,DEC,North America
 Deer Lake/Corner Brook,Canada,YDF,North America
+New Dehli,India,DEL,Asia
+"New Dehli",India,DEL,Asia
 Delhi,India,DEL,Asia
 New Delhi,India,DEL,Asia
 "Delhi, Indira Gandhi",India,DEL,Asia
 Den Haag (The Hague),Netherlands,HAG,Europe
+Denpasar Bali,Indonesia,DPS,Southeast Asia
 Denpasar/Bali,Indonesia,DPS,Southeast Asia
 Bali,Indonesia,DPS,Southeast Asia
 Bali Denpasar,Indonesia,DPS,Southeast Asia
 Davao,Phillippines,DVO,Southeast Asia
 Denpasar,Indonesia,DPS,Southeast Asia
+Denver,USA,DEN,North America
 "Denver International Airport, CO",USA,DEN,North America
 Dera Ismail Khan,Pakistan,DSK,Middle East
 Derby,Australia,DRB,South Pacific
 Derby (East Midlands),United Kingdom,EMA,Europe
 Derry (Londonderry),United Kingdom,LDY,Europe
 "Des Moines, IA",USA,DSM,North America
+Detroit,USA,DET,North America
 "Detroit City, MI",USA,DET,North America
 "Detroit Metropolitan Area, MI",USA,DTT,North America
 "Detroit Metropolitan Wayne County Airport, MI",USA,DTW,North America
@@ -427,14 +486,17 @@ Dhaka,Bangladesh,DAC,Asia
 Dinard,France,DNR,Europe
 Djerba,Tunisia,DJE,Africa
 Djibouti,Djibouti,JIB,Africa
-doh,Qatar,DOH,Middle East
+Hamad,Qatar,DOH,Middle East
+Diha,Qatar,DOH,Middle East
 Doha,Qatar,DOH,Middle East
 Dongguan,"Guangdong, China",DGM,Asia
 Dortmund,Germany,DTM,Europe
 "Dothan, AL",USA,DHN,North America
+Cameroon,Cameroon,DLA,Southeast Asia
 Douala,Cameroon,DLA,Southeast Asia
 Dresden,Germany,DRS,Europe
-Dubai,UAE,DXB,Middle East
+Dubia,United Arab Emirates,DXB,Middle East
+Dubai,United Arab Emirates,DXB,Middle East
 Dubbo,Australia,DBO,South Pacific
 Dublin,Ireland,DUB,Europe
 "Dubois, PA",USA,DUJ,North America
@@ -446,6 +508,7 @@ Dunedin,New Zealand,DUD,South Pacific
 Dunk Iceland,Australia,DKI,South Pacific
 "Durango, CO",USA,DRO,North America
 Durban,South Africa,DUR,Africa
+Dushanbe,Tadschikistan,DYU,Asia
 Dushanbe (Duschanbe),Tadschikistan,DYU,Asia
 Dusseldorf,Germany,DUS,Europe
 Düsseldorf,Germany,DUS,Europe
@@ -474,8 +537,12 @@ Emerald,Australia,EDR,South Pacific
 Emerald,Australia,EMD,South Pacific
 Enontekioe,Finland,ENF,Europe
 Entebbe,Uganda,EBB,Africa
+Erbil,Iraq,BSR,Middle East
+Ercan,
 Erfurt,Germany,ERF,Europe
 "Erie, PA",USA,ERI,North America
+Zvartnots,Armenia,EVN,Eastern Europe
+Yerevan,Armenia,EVN,Eastern Europe
 "Eriwan (Yerevan, Jerevan)",Armenia,EVN,Eastern Europe
 Esbjerg,Denmark,EBJ,Europe
 "Escabana, MI",USA,ESC,North America
@@ -497,6 +564,7 @@ Figari,France,FSC,Europe
 "Flagstaff, AZ",USA,FLG,North America
 Flin Flon,Canada,YFO,North America
 "Flint, MI",USA,FNT,North America
+Firenze,Italy,FLR,Europe
 Florence,Italy,FLR,Europe
 "Florence, SC",USA,FLO,North America
 Florianopolis,Brazil,FLN,South America
@@ -505,6 +573,8 @@ Fort Albert,Canada,YFA,North America
 Fort de France,Martinique,FDF,Caribbean
 "Fort Dodge, IA",USA,FOD,North America
 "Fort Huachuca/Sierra Vista, AZ",USA,FHU,North America
+Ft Lauderdale,USA,FLL,North America
+Fort Lauderdale,USA,FLL,North America
 "Fort Lauderdale/Hollywood, FL",USA,FLL,North America
 Fort McMurray,Canada,YMM,North America
 "Fort Myers, Metropolitan Area, FL",USA,FMY,North America
@@ -517,6 +587,8 @@ Fort St. John,Canada,YXJ,North America
 Fortaleza,Brazil,FOR,South America
 Francistown,Botswana,FRW,Africa
 Frankfurt/Hahn,Germany,HNN,Europe
+Frankfurt,Germany,FRA,Europe
+Franfurt,Germany,FRA,Europe
 Frankfurt/Main Int'l Airport,Germany,FRA,Europe
 "Franklin/Oil City, PA",USA,FKL,North America
 Fredericton,Canada,YFC,North America
@@ -560,6 +632,7 @@ Gold Coast,Australia,OOL,South Pacific
 Goondiwindi,Australia,GOO,South Pacific
 Goose Bay,Canada,YYR,North America
 Gorna,Bulgaria,GOZ,Eastern Europe
+Gothenburg,Sweden,GOT,Europe
 Goteborg,Sweden,GOT,Europe
 Gove (Nhulunbuy),Australia,GOV,South Pacific
 Govenors Harbour,Bahamas,GHB,Carribbean
@@ -591,6 +664,7 @@ Guadalcanal,Solomon Islands,GSI,South Pacific
 Guam,Guam,GUM,South Pacific
 Guangzhou (Canton) - Baiyun (White Cloud),"Guangdong, China",CAN,Asia
 Guangzhou,"Guangdong, China",CAN,Asia
+Sao Paulo GRU,Brazil,GRU,South America
 São Paulo,Brazil,GRU,South America
 Guarulhos Int'l - Sao Paulo,Brazil,GRU,South America
 Guatemala City,Guatemala,GUA,Central America
@@ -605,21 +679,25 @@ Gweru,Zimbabwe,GWE,Africa
 Gympie,Australia,GYP,South Pacific
 Hachijo Jima,Japan,HAC,Asia
 Haifa,Israel,HFA,Middle East
+Haikou,China,HAK,Asia
 "Haines, AK",USA,HNS,North America
 Hakodate,Japan,HKD,Asia
 Halifax Int'l,Canada,YHZ,North America
 Hall Beach,Canada,YUX,North America
+Hamburg,Germany,HAM,Europe
 Hamburg - Fuhlsbuettel,Germany,HAM,Europe
 Hamilton,Canada,YHM,North America
 Hamilton,Australia,HLT,South Pacific
 Hamilton Island,Australia,HTI,South Pacific
 Hammerfest,Norway,HFT,Europe
 "Hancock, MI",USA,CMX,North America
+Hangzhou,"Zhejiang, China",HGH,Asia
 Hangchow (Hangzhou),"Zhejiang, China",HGH,Asia
 Hannover,Germany,HAJ,Europe
 Hanoi,Viet Nam,HAN,Southeast Asia
 Hanoi - Noibai,Viet Nam,HAN,Southeast Asia
 Harare,Zimbabwe,HRE,Africa
+Harbin,"Heilongjiang, China",HRB,Asia
 Harbin (Haerbin),"Heilongjiang, China",HRB,Asia
 "Harlington/South Padre Island, TX",USA,HRL,North America
 "Harrington Harbour, PQ",Canada,YHR,North America
@@ -628,6 +706,7 @@ Harbin (Haerbin),"Heilongjiang, China",HRB,Asia
 "Hartford, CT/Springfield, MA",USA,BDL,North America
 Hatyai (Hat Yai),Thailand,HDY,Southeast Asia
 Haugesund,Norway,HAU,Europe
+Havana,Cuba,HAV,Caribbean
 Havana - Jos� Mart� Int'l,Cuba,HAV,Caribbean
 "Havre, MT",USA,HVR,North America
 Hayman Island,Australia,HIS,South Pacific
@@ -638,13 +717,18 @@ Helsinki - Vantaa,Finland,HEL,Europe
 Heraklion,Greece,HER,Europe
 Hermosillo - Gen. Pesqueira Garcia,Mexico,HMO,North America
 Hervey Bay,Australia,HVB,South Pacific
+Heydar Aliyev,Azerbaijan,GYD,Eastern Europe
 "Hibbing, MN",USA,HIB,North America
 "Hickory, NC",USA,HKY,North America
 "Hilo, HI",USA,ITO,North America
 "Hilton Head Island, SC",USA,HHH,North America
 Hinchinbrook Island,Australia,HNK,South Pacific
+Hiroshima,Japan,HIJ,Asia
 Hiroshima International,Japan,HIJ,Asia
+Hi Chi Minh City,Viet Nam,SGN,Southeast Asia
+Ho Chi Minh city,Viet Nam,SGN,Southeast Asia
 Ho Chi Minh,Viet Nam,SGN,Southeast Asia
+Ho chi Minh City,Viet Nam,SGN,Southeast Asia
 Ho Chi Minh City,Viet Nam,SGN,Southeast Asia
 Ho Chi Minh City (Saigon),Viet Nam,SGN,Southeast Asia
 Saigon,Viet Nam,SGN,Southeast Asia
@@ -654,13 +738,18 @@ Holguin,Cuba,HOG,Caribbean
 Home Hill,Australia,HMH,South Pacific
 "Homer, AK",USA,HOM,North America
 Hong Kong - Chek Lap Kok,Hong Kong,ZJK,Asia
+Hong Hong,Hong Kong,HKG,Asia
+Hong Kong,Hong Kong,HKG,Asia
 Hong Kong - Int'l Airport (HKIA),Hong Kong,HKG,Asia
 Honiara Henderson Int'l,Solomon Islands,HIR,South Pacific
+Honolulu,USA,HNL,North America
 "Honolulu, HI",USA,HNL,North America
 "Hoonah, AK",USA,HNH,North America
 Horta,Portugal,HOR,Europe
 "Houston, Hobby, TX",USA,HOU,North America
+Houston,USA,IAH,North America
 "Houston, Intercontinental, TX",USA,IAH,North America
+Huston,USA,IAH,North America
 Huahine,French Polynesia,HUH,South Pacific
 Huatulco,Mexico,HUX,North America
 Hue - Phu Bai,Viet Nam,HUI,Southeast Asia
@@ -673,8 +762,8 @@ Hurghada Int'l,Egypt,HRG,Africa
 Hwange National Park,Zimbabwe,HWN,Africa
 "Hyannis, MA",USA,HYA,North America
 "Hydaburg, AK",USA,HYG,North America
-Hyderabad,Pakistan,HDD,Middle East
-Hyderabad - Begumpet,India,HYD,Asia
+Hyderabad - Pakistan,Pakistan,HDD,Middle East
+Rajiv Gandhi,India,HYD,Asia
 Ibiza,Ibiza/Spain,IBZ,Europe
 "Idaho Falls, ID",USA,IDA,North America
 "Iguazu, Cataratas",Argentina,IGR,South America
@@ -700,11 +789,18 @@ Ishigaki,Japan,LSG,Asia
 Islamabad,Pakistan,ISB,Middle East
 Islamabad - Islamabad Int'l,Pakistan,ISB,Middle East
 Isle of Man,United Kingdom,IOM,Europe
+Istanbul Sabiha,Turkey,SAW,Middle East
 Istanbul,Turkey,IST,Middle East
+İstanbul,Turkey,IST,Middle East
+ISTANBUL,Turkey,IST,Middle East
+Istambul,Turkey,IST,Middle East
+Istanbul Atatürk,Turkey,IST,Middle East
 Istanbul - Ataturk,Turkey,IST,Middle East
 "Ithaca/Cortland, NY",USA,ITH,North America
 Ivalo,Finland,IVL,Europe
+Iwakuni,Japan,IWK,Asia
 Ixtapa/Zihuatenejo,Mexico,ZIH,North America
+İzmir,Turkey,IZM,Middle East
 Izmir,Turkey,IZM,Middle East
 "Jackson Hole, WY",USA,JAC,North America
 "Jackson, MI",USA,JXN,North America
@@ -716,12 +812,19 @@ Jacobabad,Pakistan,JAG,Middle East
 Jaipur - Sanganeer,India,JAI,Asia
 Jakarta - Halim Perdanakusma,Indonesia,HLP,Southeast Asia
 Jakarta - Kemayoran,Indonesia,JKT,Southeast Asia
+Jogjakarta,Indonesia,CGK,Southeast Asia
+Jakarta,Indonesia,CGK,Southeast Asia
+Jarkata,Indonesia,CGK,Southeast Asia
 Jakarta - Soekarno-Hatta,Indonesia,CGK,Southeast Asia
 Jalandhar,India,JLR,Asia
 "Jamestown, ND",USA,JMS,North America
 "Jamestown, NY",USA,JHW,North America
 Jamshedpur - Sonari,India,IXW,Asia
+Jeddah,Saudi Arabia,JED,Middle East
 Jeddah - King Abdulaziz Int'l,Saudi Arabia,JED,Middle East
+JeJu Island,South Korea,CJU,Asia
+JeJu,South Korea,CJU,Asia
+Jeju,South Korea,CJU,Asia
 Jerez de la Frontera/Cadiz,Spain,XRY,Europe
 Jersey,United Kingdom,JER,Europe
 Jerusalem,Israel,JRS,Middle East
@@ -731,6 +834,7 @@ Joacaba,Brazil,JCB,South America
 Joao Pessoa - Castro Pinto,Brazil,JPA,South America
 Joenkoeping,Sweden,JKG,Europe
 Joensuu,Finland,JOE,Europe
+Johannesbug,South Africa,JNB,Africa
 Johannesburg,South Africa,JNB,Africa
 Johannesburg - Johannesburg Int'l,South Africa,JNB,Africa
 "Johnstown, PA",USA,JST,North America
@@ -753,6 +857,7 @@ Kalmar,Sweden,KLR,Europe
 Kano,Nigeria,KAN,Africa
 Kanpur,India,QJU,Asia
 "Kansas City, MO - Int'l",USA,MCI,North America
+Kaohsiung,Taiwan,KHH,Asia
 Kaohsiung Int'l,Taiwan,KHH,Asia
 "Kapalua West, HI",USA,JHM,North America
 Karachi,Pakistan,KHI,Middle East
@@ -766,14 +871,18 @@ Karup,Denmark,KRP,Europe
 "Kaschechawan, PQ",Canada,ZKE,North America
 Kassala,Sudan,KSL,Africa
 Katherine,Australia,KTR,South Pacific
+Kathmanda,Nepal,KTM,Asia
 Kathmandu,Nepal,KTM,Asia
 Kathmandu - Tribhuvan,Nepal,KTM,Asia
 Katima Mulilo/Mpacha,Namibia,MPA,Africa
+Katowice,Poland,KTW,Europe
 Kauhajoki,Finland,KHJ,Europe
 "Kaunakakai, HI",USA,MKK,North America
 Kavalla,Greece,KVA,Europe
 Keyseri,Turkey,ASR,Middle East
 Kayseri,Turkey,ASR,Middle East
+Kazan,Russia,KZN,Eastern Europe
+Kazan,Russia,KZN,Eastern Europe
 Kazan (Ka San),Russia,KZN,Eastern Europe
 Keetmanshoop,Namibia,KMP,Africa
 "Kelowna, BC",Canada,YLW,North America
@@ -788,8 +897,14 @@ Khartoum,Sudan,KRT,Africa
 Khuzdar,Pakistan,KDD,Middle East
 Kiel - Holtenau,Germany,KEL,Europe
 Kiev - Borispol,Ukraine,KBP,Eastern Europe
+Kiev,Ukraine,KBP,Eastern Europe
+Kyiv,Ukraine,IEV,Eastern Europe
+Kiyv,Ukraine,IEV,Eastern Europe
 Kiev - Zhulhany,Ukraine,IEV,Eastern Europe
+Kigali,Rwanda,KGL,Africa
 Kigali - Gregoire Kayibanda,Rwanda,KGL,Africa
+Kilimanjaro,Tanzania,JRO,Africa
+Kilaminjaro,Tanzania,JRO,Africa
 Kilimadjaro,Tanzania,JRO,Africa
 "Killeem, TX",USA,ILE,North America
 Kimberley,South Africa,KIM,Africa
@@ -798,6 +913,8 @@ King Island,King Island,KNS,South Pacific
 Kingscote,Australia,KGC,South Pacific
 Kingston - Norman Manley,Jamaica,KIN,Caribbean
 "Kingston, NC",USA,ISO,North America
+Kinmen,China,KNH,Asia
+Kinshasa,Congo (Zaire),FIH,Africa
 Kinshasa - N'Djili,Congo (Zaire),FIH,Africa
 Kirkenes,Norway,KKN,Europe
 Kirkuk,Iraq,KIK,Middle East
@@ -818,6 +935,7 @@ Kohat,Pakistan,OHT,Middle East
 Kokkola/Pietarsaari,Finland,KOK,Europe
 Kolkata (Calcutta) - Netaji Subhas Chandra,India,CCU,Asia
 Kolkata,India,CCU,Asia
+Koltsovo,Russia,SVX,Eastern Europe
 "K�ln, K�ln/Bonn",Germany,CGN,Europe
 Komatsu,Japan,KMQ,Asia
 "Kona, HI",USA,KOA,North America
@@ -828,11 +946,14 @@ Kosice,Slovakia,KSC,Central Europe
 Kota Kinabalu,Malaysia,BKI,Southeast Asia
 "Kotzbue, AK",USA,OTZ,North America
 Kowanyama,Australia,KWM,South Pacific
+Krabi,Thailand,KBV,Southeast Asia
+Krakow,Poland,KRK,Europe
 Krakau,Poland,KRK,Europe
 Kristiansand,Norway,KRS,Europe
 Kristianstad,Sweden,KID,Europe
 Kristiansund,Norway,KSU,Europe
 Kuala Belait,Brunei,KUB,Southeast Asia
+Kuala Lumpur,Malaysia,KUL,Southeast Asia
 Kuala Lumpur - Int'l Airport,Malaysia,KUL,Southeast Asia
 Kuala Lumpur - Sultan Abdul Aziz Shah,Malaysia,SZB,Southeast Asia
 Kuantan,Malaysia,KUA,Southeast Asia
@@ -861,6 +982,7 @@ Lae,Papua New Guinea,LAE,Southeast Asia
 "Lafayette, IN",USA,LAF,North America
 "Lafayette, La",USA,LFT,North America
 Lagos,Nigeria,LOS,Africa
+"Lagos, Nigeria",Nigeria,LOS,Africa
 Lagos - Murtala Muhammed,Nigeria,LOS,Africa
 Lahore,Pakistan,LHE,Middle East
 "Lake Charles, La",USA,LCH,North America
@@ -879,8 +1001,11 @@ Lanseria,South Africa,HLA,Africa
 Lappeenranta,Finland,LPP,Europe
 "Laramie, WY",USA,LAR,North America
 "Laredo, TX",USA,LRD,North America
+Lefkosa ECN,Cyprus,ECN,Europe
+Ercan,Cyprus,ECN,Europe
 Larnaca,Cyprus,LCA,Europe
 Las Palmas,Spain,LPA,Europe
+Las Vegas,USA,LAS,North America
 "Las Vegas, NV",USA,LAS,North America
 "Latrobe, PA",USA,LBE,North America
 Launceston,Australia,LST,South Pacific
@@ -915,11 +1040,13 @@ Limoges,France,LIG,Europe
 Lindeman Island,Australia,LDC,South Pacific
 Linz - Hoersching,Austria,LNZ,Europe
 Lisala,"Congo, Democratic Republic of The",LIQ,Africa
+Lisbon,Portugal,LIS,Europe
 Lisbon - Lisboa,Portugal,LIS,Europe
 Lismore,Australia,LSY,South Pacific
 "Little Rock, AR",USA,LIT,North America
 Liverpool,United Kingdom,LPL,Europe
 Lizard Island,Australia,LZR,South Pacific
+Ljubliana,Slovenia,LJU,Eastern Europe
 Ljubljana,Slovenia,LJU,Eastern Europe
 Ljubljana - Brnik,Slovenia,LJU,Eastern Europe
 Lockhart River,Australia,IRG,South Pacific
@@ -930,6 +1057,8 @@ London - City Airport,United Kingdom,LCY,Europe
 London Gatwick,United Kingdom,LGW,Europe
 London - Gatwick,United Kingdom,LGW,Europe
 Gatwick,United Kingdom,LGW,Europe
+Heathrow,United Kingdom,LHR,Europe
+London Heathrw,United Kingdom,LHR,Europe
 London Heahrow,United Kingdom,LHR,Europe
 London Heathrow,United Kingdom,LHR,Europe
 London - Heathrow,United Kingdom,LHR,Europe
@@ -950,6 +1079,7 @@ Los Mochis,Mexico,LMM,North America
 Los Rodeos,Teneriffa/Spain,TFN,Europe
 "Louisville, KY",USA,SDF,North America
 Lourdes/Tarbes,France,LDE,Europe
+Luanda,Angola,LAD,Africa
 Luanda - 4 de Fevereiro,Angola,LAD,Africa
 "Lubbock, TX",USA,LBB,North America
 Lucknow,India,LKO,Asia
@@ -963,6 +1093,8 @@ Lusaka,Zambia,LUN,Africa
 Lusisiki,South Africa,LUJ,Africa
 Luxembourg,Luxembourg,LUX,Europe
 Luxor,Egypt,LXR,Africa
+Lviv,Ukraine,LWO,Eastern Europe
+Lvov,Ukraine,LWO,Eastern Europe
 "Lvov (Lwow, Lemberg)",Ukraine,LWO,Eastern Europe
 "Lynchburg, VA",USA,LYH,North America
 Lyon,France,LYS,Europe
@@ -971,13 +1103,18 @@ Macapa,Brazil,MCP,South America
 Macau,"Macau, China SAR",MFM,Asia
 Maceio,Brazil,MCZ,South America
 Mackay,Australia,MKY,South Pacific
+Mactan,Phillippines,CEB,Southeast Asia
+Mactan-Cebu,Phillippines,CEB,Southeast Asia
 "Macon, GA",USA,MCN,North America
 Mactan Island - Nab,Philippines,NOP,Southeast Asia
 "Madinah, Mohammad Bin Abdulaziz",Saudi Arabia,MED,Middle East
 "Madison, WI",USA,MSN,North America
 Madras (Chennai),India,MAA,Asia
+madrid,Spain,MAD,Europe
 Madrid,Spain,MAD,Europe
 Madrid - Barajas,Spain,MAD,Europe
+Mahe,Seychelles,SEZ,Africa
+"Mahé, Seychelles",Seychelles,SEZ,Africa
 Mahé,Seychelles,SEZ,Africa
 Seychelles,Seychelles,SEZ,Africa
 Mahe - Seychelles Int'l,Seychelles,SEZ,Africa
@@ -987,7 +1124,9 @@ Majunga,Madagascar,MJN,Africa
 Makung,Taiwan,MZG,Asia
 Malabo,Equatorial Guinea,SSG,Africa
 Malaga,Spain,AGP,Europe
+Maldives,Maledives,MLE,Asia
 Male,Maledives,MLE,Asia
+Malé,Maledives,MLE,Asia
 Male - International,Maledives,MLE,Asia
 Malindi,Kenya,MYD,Africa
 Malmo (Malmoe),Sweden,MMA,Europe
@@ -995,7 +1134,11 @@ Malmo (Malmoe) - Sturup,Sweden,MMX,Europe
 Man,Ivory Coast,MJC,Africa
 Manado,Indonesia,MDC,Southeast Asia
 Managua - Augusto C Sandino,Nicaragua,MGA,Central Americal
+Biskek,Bishkek,FRU,Asia
+Bishkek,Bishkek,FRU,Asia
+Manas,Bishkek,FRU,Asia
 Manaus,Brazil,MAO,South America
+Manchester UK,United Kingdom,MAN,Europe
 Manchester,United Kingdom,MAN,Europe
 "Manchester, NH",USA,MHT,North America
 Manguna,Papua New Guinea,MFO,Southeast Asia
@@ -1010,6 +1153,7 @@ Mar del Plata,Argentina,MDQ,South America
 Maracaibo - La Chinita,Venezuela,MAR,South America
 Maradi,Niger,MFQ,Africa
 "Marathon, FL",USA,MTH,North America
+Mardin,Turkey,MQM,Middle East
 Mare,New Caledonia,MEE,South Pacific
 Margate,South Africa,MGH,Africa
 Margerita,Venezuela,PMV,South America
@@ -1017,13 +1161,17 @@ Maribor,Slovenia,MBX,Eastern Europe
 Mariehamn (Maarianhamina),Finland,MHQ,Europe
 Maroua,Cameroon,MVR,Southeast Asia
 "Marquette, MI",USA,MQT,North America
+Marrakesh,Morocco,RAK,Africa
+Marrakech,Morocco,RAK,Africa
 Marrakech - Menara,Morocco,RAK,Africa
 Marsa Matrah (Marsa Matruh),Egypt,MUH,Africa
+Marseilles,France,MRS,Europe
 Marseille,France,MRS,Europe
 Marsh Harbour,Bahamas,MHH,Carribbean
 "Martha's Vineyard, MA",USA,MVY,North America
 Maryborough,Australia,MBH,South Pacific
 Maseru - Moshoeshoe Int'l,Lesotho,MSU,Africa
+Mashad,Iran,MHD,Middle East
 "Mason City, IA",USA,MCW,North America
 Masvingo,Zimbabwe,MVZ,Africa
 "Matsumoto, Nagano",Japan,MMJ,Asia
@@ -1031,6 +1179,8 @@ Matsuyama,Japan,MYJ,Asia
 "Mattoon, IL",USA,MTO,North America
 Maun,Botswana,MUB,Africa
 Maupiti,French Polynesia,MAU,South Pacific
+Port Louis,Mauritius,MRU,Asia
+Mauritius,Mauritius,MRU,Asia
 Mauritius - S.Seewoosagur Ram Int'l,Mauritius,MRU,Asia
 Mayaguez,Puerto Rico,MAZ,Caribbean
 Mazatlan,Mexico,MZT,North America
@@ -1040,6 +1190,8 @@ Medellin,Colombia,MDE,South America
 "Medford, OR",USA,MFR,North America
 Medina,Saudi Arabia,MED,Middle East
 Meekatharra,Australia,MKR,South Pacific
+Melbourne Australia,,AustraliaMEL,South Pacific
+Melbourne,Australia,MEL,South Pacific
 Melbourne - Tullamarine,Australia,MEL,South Pacific
 "Melbourne, FL",USA,MLB,North America
 "Memphis, TN",USA,MEM,North America
@@ -1052,9 +1204,11 @@ Messina,South Africa,MEZ,Africa
 "Metlakatla, AK",USA,MTM,North America
 Metz,France,MZM,Europe
 Mexicali,Mexico,MXL,North America
+Mexico city,Mexico,MEX,North America
 Mexico City,Mexico,MEX,North America
 Mexico City - Juarez International,Mexico,MEX,North America
 Mfuwe,Zambia,MFU,Africa
+MIami,USA,MIA,North America
 Miami,USA,MIA,North America
 "Miami, FL",USA,MIA,North America
 Mianwali,Pakistan,MWD,Middle East
@@ -1063,6 +1217,9 @@ Middlemount,Australia,MMM,South Pacific
 Mikkeli,Finland,MIK,Europe
 Milan,Italy,MIL,Europe
 Milan - Linate,Italy,LIN,Europe
+Milano MXP,Italy,MXP,Europe
+Milano,Italy,MXP,Europe
+Milan Malpensa,Italy,MXP,Europe
 Milan - Malpensa,Italy,MXP,Europe
 Milan - Orio Al Serio,Italy,BGY,Europe
 Mildura,Australia,MQL,South Pacific
@@ -1073,6 +1230,7 @@ Minatitlan,Mexico,MTT,North America
 Mineralnye Vody,Russia,MRV,Eastern Europe
 "Minneapolis - St. Paul Int'l Airport, MN",USA,MSP,North America
 "Minot, ND",USA,MOT,North America
+Minsk,Belarus,MSQ,Eastern Europe
 "Minsk, International",Belarus,MSQ,Eastern Europe
 Miri,Malaysia,MYY,Southeast Asia
 Mirpur,Pakistan,QML,Middle East
@@ -1089,6 +1247,7 @@ Mogadishu,Somalia,MGQ,Africa
 Mogadischu,Somalia,MGQ,Africa
 Mokuti,Namibia,OKU,Africa
 "Moline/Quad Cities, IL",USA,MLI,North America
+Mombasa,Kenya,MBA,Africa
 Mombasa - Moi International,Kenya,MBA,Africa
 Monastir,Tunisia,MIR,Africa
 Moncton,Canada,YQM,North America
@@ -1103,6 +1262,7 @@ Monterrey - Aeropuerto Del Norte,Mexico,NTR,North America
 Montevideo - Carrasco,Uruguay,MVD,South America
 "Montgomery, AL",USA,MGM,North America
 Montpellier - Frejorgues,France,MPL,Europe
+Montréal,Canada,YMQ,North America
 Montreal,Canada,YMQ,North America
 Montreal - Dorval (Montr�al-Trudeau),Canada,YUL,North America
 Montreal - Mirabel,Canada,YMX,North America
@@ -1118,6 +1278,8 @@ Moroni - Prince Said Ibrahim,Comoros (Comores),HAH,Africa
 Moscow - Domodedovo,Russia,DME,Eastern Europe
 Moscow - Metropolitan Area,Russia,MOW,Eastern Europe
 Moscow - Sheremetyevo,Russia,SVO,Eastern Europe
+Mosco,Russia,SVO,Eastern Europe
+Moscow,Russia,SVO,Eastern Europe
 Moscow-Vnukovo,Russia,VKO,Eastern Europe
 Moscow - Vnukovo,Russia,VKO,Eastern Europe
 "Moses Lake, WA",USA,MWH,North America
@@ -1139,6 +1301,7 @@ Mulhouse,France,MLH,Europe
 Multan,Pakistan,MUX,Middle East
 Murcia,Spain,MJV,Europe
 Murmansk,Russia,MMK,Eastern Europe
+Muscat,Oman,MCT,Middle East
 Muscat - Seeb,Oman,MCT,Middle East
 "Muscle Shoals, AL",USA,MSL,North America
 "Muskegon, MI",USA,MKG,North America
@@ -1148,17 +1311,23 @@ Mykonos,Greece,JMK,Europe
 "Myrtle Beach, SC",USA,MYR,North America
 Mytilene (Lesbos),Greece,MJT,Europe
 Mzamba,South Africa,MZF,Africa
+Fiji,Fiji,NAN,South Pacific
 Nadi,Fiji,NAN,South Pacific
 Nagasaki,Japan,NGS,Asia
 Nagoya - Komaki AFB,Japan,NGO,Asia
+Nagoya,Japan,NGO,Asia
 Nagpur,India,NAG,Asia
 Nairobi,Kenya,NBO,Africa
+Najaf,Iraq,NJF,Middle East
 Nancy,France,ENC,Europe
 Nanisivik,Canada,YSR,North America
+Nanjing,China,NKG,Asia
+Nakhchivan,Azerbaijan,NAJ,Eastern Europe
 Nanning,"Guangxi, China",NNG,Asia
 Nantes,France,NTE,Europe
 "Nantucket, MA",USA,ACK,North America
 Naples,Italy,NAP,Europe
+Napoli,Italy,NAP,Europe
 "Naples, FL",USA,APF,North America
 Narrabri,Australia,NAA,South Pacific
 Narrandera,Australia,NRA,South Pacific
@@ -1173,6 +1342,7 @@ N'Dola,Zambia,NLA,Africa
 Nelson,New Zealand,NSN,South Pacific
 Nelspruit,South Africa,NLP,Africa
 Nevis,Nevis,NEV,Caribbean
+Nevşehir Kapadokya Airport,Turkey,NAV,Middle East
 "New Bern, NC",USA,EWN,North America
 "New Haven, CT",USA,HVN,North America
 "New Orleans, La",USA,MSY,North America
@@ -1182,6 +1352,7 @@ New York JFK,USA,JFK,North America
 "New York - La Guardia, NY",USA,LGA,North America
 Newark,USA,EWR,North America
 "New York - Newark, NJ",USA,EWR,North America
+New York,USA,NYC,North America
 "New York, NY",USA,NYC,North America
 "Newburgh, NY",USA,SWF,North America
 Newcastle,South Africa,NCS,Africa
@@ -1216,15 +1387,20 @@ Novosibirsk - Tolmachevo,Russia,OVB,Eastern Europe
 Nuevo Laredo,Mexico,NLD,North America
 Nuku'alofa - Fua'Amotu International,Tonga,TBU,South Pacific
 Nuremberg,Germany,NUE,Europe
+Nuremburg,Germany,NUE,Europe
 N�rnberg (Nuremberg),Germany,NUE,Europe
 "Oakland, CA",USA,OAK,North America
 Oaxaca,Mexico,OAX,North America
 Odense,Denmark,ODE,Europe
 Odessa,Ukraine,ODS,Eastern Europe
+Odesa,Ukraine,ODS,Eastern Europe
 Oerebro,Sweden,ORB,Europe
 Ohrid,Macedonia,OHD,Eastern Europe
 Oita,Japan,OIT,Asia
 Okayama,Japan,OKJ,Asia
+Okinawa,Japan,OKA,Asia
+Naha,Japan,OKA,Asia
+Okinawa Naha,Japan,OKA,Asia
 "Okinawa, Ryukyo Island - Naha",Japan,OKA,Asia
 "Oklahoma City, OK - Will Rogers World",USA,OKC,North America
 Olbia,Italy,OLB,Europe
@@ -1232,16 +1408,25 @@ Olympic Dam,Australia,OLP,South Pacific
 "Omaha, NE",USA,OMA,North America
 Ondangwa,Namibia,OND,Africa
 "Ontario, CA",USA,ONT,North America
+Oran,Algeria,ORN,Africa
 Oran (Ouahran),Algeria,ORN,Africa
 Orange,Australia,OAG,South Pacific
 "Orange County (Santa Ana), CA",USA,SNA,North America
 Oranjemund,Namibia,OMD,Africa
 Orkney,United Kingdom,KOI,Europe
 "Orlando Int'l Airport, FL",USA,ORL,North America
+Orlando,USA,MCO,North America
+Orlando Executive Airport,USA,ORL,North America
 "Orlando Metropolitan Area, FL",USA,ORL,North America
 Orpheus Island,Australia,ORS,South Pacific
+Itami,Japan,ITM,Asia
+Osaka Itami,Japan,ITM,Asia
 Osaka - Itami,Japan,ITM,Asia
+Kansa,Japan,KIX,Asia
+Kansai,Japan,KIX,Asia
+Giresun,Turkey,OGU,Middle East
 Osaka Kansai,Japan,KIX,Asia
+Osaka,Japan,KIX,Asia
 Osaka - Kansai Int'l Airport,Japan,KIX,Asia
 "Osaka, Metropolitan Area",Japan,OSA,Asia
 "Oshkosh, WI",USA,OSH,North America
@@ -1274,12 +1459,18 @@ Panama City - Tocumen International,Panama,PTY,Central America
 Panjgur,Pakistan,PJG,Middle East
 Pantelleria,Italy,PNL,Europe
 Papeete - Faaa,French Polynesia (Tahiti),PPT,South Pacific
+Papeete,French Polynesia (Tahiti),PPT,South Pacific
 Paphos,Cyprus,PFO,Europe
 Paraburdoo,Australia,PBO,South Pacific
 Paramaribo - Zanderij Int'l,Suriname,PBM,Africa
 Paris,France,PAR,Europe
+París CDG,France,CDG,Europe
+Paris CDG,France,CDG,Europe
 Paris - Charles de Gaulle,France,CDG,Europe
 Paris - Le Bourget,France,LBG,Europe
+Paris Orly,France,ORY,Europe
+Orly,France,ORY,Europe
+Paris-Orly,France,ORY,Europe
 Paris - Orly,France,ORY,Europe
 Paro,Bhutan,PBH,Asia
 "Pasco, WA",USA,PSC,North America
@@ -1304,14 +1495,17 @@ Peshawar,Pakistan,PEW,Middle East
 Phalaborwa,South Africa,PHW,Africa
 Philadelphia,USA,PHL,North America
 "Philadelphia, PA - Int'l",USA,PHL,North America
+Pnom Penh,Cambodia,PNH,Southeast Asia
 Phnom Penh,Cambodia,PNH,Southeast Asia
 Phnom Penh - Pochentong,Cambodia,PNH,Southeast Asia
+Phoenix,USA,PHX,North America
 "Phoenix, AZ - Sky Harbor Int'l",USA,PHX,North America
 Phuket,Thailand,HKT,Southeast Asia
 "Pierre, SD",USA,PIR,North America
 Pietermaritzburg,South Africa,PZB,Africa
 Pietersburg,South Africa,PTG,Africa
 Pilanesberg/Sun City,South Africa,NTY,Africa
+Pisa,Italy,PSA,Europe
 Pisa - Gal Galilei,Italy,PSA,Europe
 "Pittsburgh Int'l Airport, PA",USA,PIT,North America
 "Plattsburgh, NY",USA,PLB,North America
@@ -1319,6 +1513,7 @@ Plettenberg Bay,South Africa,PBZ,Africa
 "Pocatello, ID",USA,PIH,North America
 Podgorica,Yugoslavia,TGD,Eastern Europe
 Pohnpei,Micronesia,PNI,South Pacific
+Point-a-Pitre,Guadeloupe,PTP,Caribbean
 Pointe a Pitre,Guadeloupe,PTP,Caribbean
 Pointe Noire,Congo,PNR,Africa
 Ponce,Puerto Rico,PSE,Caribbean
@@ -1342,6 +1537,7 @@ Portland,Australia,PTJ,South Pacific
 "Portland Int'l, OR",USA,PDX,North America
 "Portland, ME",USA,PWM,North America
 Porto,Portugal,OPO,Europe
+Oporto,Portugal,OPO,Europe
 Porto Alegre,Brazil,POA,South America
 Porto Santo,Portugal,PXO,Europe
 Porto Velho,Brazil,PVH,South America
@@ -1359,6 +1555,7 @@ Pristina,Yugoslavia,PRN,Eastern Europe
 Prosperpine,Australia,PPP,South Pacific
 "Providence, RI",USA,PVD,North America
 "Prudhoe Bay, AK",USA,SCC,North America
+Gimhae,South Korea,PUS,Asia
 Busan,South Korea,PUS,Asia
 Pu San (Pusan) - Kimhae,South Korea,PUS,Asia
 Puebla,Mexico,PBC,North America
@@ -1373,6 +1570,7 @@ Pula,Croatia (Hrvatska),PUY,Eastern Europe
 Pune,India,PNQ,Asia
 Punta Arenas,Chile,PUQ,South America
 Punta Cana,Dominican Republic,PUJ,Caribbean
+Qingdoa,China,TAO,Asia
 Qingdao,"Shandong, China",TAO,Asia
 Quebec - Quebec Int'l,Canada,YQB,North America
 Queenstown,Australia,UEE,South Pacific
@@ -1381,18 +1579,20 @@ Quetta,Pakistan,UET,Middle East
 Quimper,France,UIP,Europe
 "Quincy, IL",USA,UIN,North America
 Quito - Mariscal Sucr,Ecuador,UIO,South America
+Rabat,Morocco,RBA,Africa
 Rabat - Sale,Morocco,RBA,Africa
 Rahim Yar Khan,Pakistan,RYK,Middle East
 Raiatea,French Polynesia,RFP,South Pacific
 "Rainbow Lake, AB",Canada,YOP,North America
 Rajkot,India,RAJ,Asia
+Raleigh Durham,USA,RDU,North America
 "Raleigh/Durham, NC",USA,RDU,North America
 Ranchi,India,IXR,Asia
 Rangiroa,French Polynesia,RGI,South Pacific
 Rangoon (Yangon) - Mingaladon,Myanmar (Burma),RGN,Southeast Asia
 "Rapid City, SD",USA,RAP,North America
 Rarotonga Cook,Island,RAR,South Pacific
-Ras al Khaymah (Ras al Khaimah),UAE,RKT,Middle East
+Ras al Khaymah (Ras al Khaimah),United Arab Emirates,RKT,Middle East
 Rawala Kot,Pakistan,RAZ,Middle East
 Rawalpindi,Pakistan,RWP,Middle East
 "Reading, PA",USA,RDG,North America
@@ -1406,6 +1606,7 @@ Rennes,France,RNS,Europe
 "Reno, NV",USA,RNO,North America
 Resolute Bay,Canada,YRB,North America
 Reus,Spain,REU,Europe
+Keflavik,Iceland,KEF,Europe
 Reykjavik - Keflavik International,Iceland,KEF,Europe
 Reykjavik - Metropolitan Area,Iceland,REK,Europe
 "Rhinelander, WI",USA,RHI,North America
@@ -1437,6 +1638,8 @@ Rodrigues Island,Mauritius,RRG,Asia
 Roenne,Denmark,RNN,Europe
 Rome,Italy,ROM,Europe
 Rome - Ciampino,Italy,CIA,Europe
+Rome Fuimicino,Italy,FCO,Europe
+Rome Fiumicino,Italy,FCO,Europe
 Rome - Fuimicino,Italy,FCO,Europe
 Ronneby,Sweden,RNB,Europe
 Rosario,Argentina,ROS,South America
@@ -1450,8 +1653,10 @@ Saarbruecken,Germany,SCN,Europe
 Sado Shima,Japan,SDS,Asia
 "Saginaw/Bay City/Midland, MI",USA,MBS,North America
 Saidu Sharif,Pakistan,SDT,Middle East
+Tan Son Nhat,Viet Nam,SGN,Southeast Asia
 Saigon (Ho Chi Minh City),Viet Nam,SGN,Southeast Asia
 Saint Brieuc,France,SBK,Europe
+Reunion,Reunion,RUN,Africa
 Saint Denis de la Reunion,Reunion,RUN,Africa
 Saint John,Canada,YSJ,North America
 Saipan,Northern Mariana Islands,SPN,South Pacific
@@ -1463,16 +1668,20 @@ Salinas,Ecuador,SNC,South America
 Salisbury,Zimbabwe,SAY,Africa
 "Salisbury, MD",USA,SBY,North America
 Saloniki,Greece,SKG,Europe
+Salt Lake City,USA,SLC,North America
 "Salt Lake City, UT",USA,SLC,North America
 "Salta, Gen Belgrano",Argentina,SLA,South America
 Salvador,Brazil,SSA,South America
 Salzburg - W.A. Mozart,Austria,SZG,Europe
 Samarkand,Uzbekistan,SKD,Asia
 Samos,Greece,SMI,Europe
+Koh Samui,Thailand,USM,Southeast Asia
+Samui,Thailand,USM,Southeast Asia
 San Andres,Colombia,ADZ,South America
 "San Angelo, TX",USA,SJT,North America
 "San Antonio, TX",USA,SAT,North America
 San Carlos de Bariloche,Argentina,BRC,South America
+San Diego,USA,SAN,North America
 "San Diego - Lindberg Field Int'l, CA",USA,SAN,North America
 San Francisco,USA,SFO,North America
 "San Francisco - Int'l Airport, SA",USA,SFO,North America
@@ -1516,6 +1725,10 @@ Sao Paulo - Viracopos,Brazil,VCP,South America
 Sao Tome,Sao Tome & Principe,TMS,Africa
 Sapporo,"Hokkaido, Japan",SPK,Asia
 Sapporo - Okadama,"Hokkaido, Japan",OKD,Asia
+Hokkaido,Japan,CTS,Asia
+New Chitose (Sapporo),Japan,CTS,Asia
+"New Chitose (Sapporo)",Japan,CTS,Asia
+Sapporo New Chitose,Japan,CTS,Asia
 Sapporo - Shin-Chitose Airport,Japan,CTS,Asia
 Sarajevo,Bosnia and Herzegovina,SJJ,Eastern Europe
 "Sarasota/Bradenton, FL",USA,SRQ,North America
@@ -1531,15 +1744,25 @@ Sehba,Libya,SEB,Africa
 Seinaejoki,Finland,SJY,Europe
 Selibi Phikwe,Botswana,PKW,Africa
 Sendai,Japan,SDJ,Asia
+Seoul GMP,South Korea,GMP,Asia
+Seoul,South Korea,ICN,Asia
+Seoul Incheon,South Korea,ICN,Asia
+Seoul Incheaon,South Korea,ICN,Asia
+Incheon,South Korea,ICN,Asia
 Seoul - Incheon Int'l Airport,South Korea,ICN,Asia
+Seoul Gimpo,South Korea,SEL,Asia
 Seoul - Kimpo,South Korea,SEL,Asia
 Sevilla,Spain,SVQ,Europe
 Sfax,Tunisia,SFA,Africa
 "Shamattawa, MB",Canada,ZTM,North America
 Shanghai - Hongqiao,China,SHA,Asia
+Shanghai,China,PVG,Asia
+Shanghai Pudong,China,PVG,Asia
 Shanghai - Pu Dong,China,PVG,Asia
 Shannon (Limerick),Ireland,SNN,Europe
-Sharjah,UAE,SHJ,Middle East
+sharjah,United Arab Emirates,SHJ,Middle East
+Sharjah,United Arab Emirates,SHJ,Middle East
+Sharm el Sheikh,Egypt,SSH,Africa
 Sharm El Sheikh,Egypt,SSH,Africa
 "Sheffield, City Airport",UK,SZD,Europe
 "Shenandoah Valley/Stauton, VA",USA,SHD,North America
@@ -1549,13 +1772,23 @@ Shenzhen,"Guangdong, China",SZX,Asia
 Shiraz,Iran,SYZ,Middle East
 "Shreveport, La",USA,SHV,North America
 Shute Harbour,Australia,JHQ,South Pacific
+Sialkot,Pakistan,SKT,Southern Asia
 Sibu,Malaysia,SBW,Southeast Asia
 "Sidney, MT",USA,SDY,North America
-"Siam Reap,Cambodia",SAI,Southeast Asia
+"Siam Reap, Cambodia",Cambodia,SAI,Southeast Asia
+"Siam Reap,Cambodia",Cambodia,SAI,Southeast Asia
 Siem Reap,Cambodia,SAI,Southeast Asia
 Silistra,Bulgaria,SLS,Eastern Europe
 Simferopol,Ukraine,SIP,Eastern Europe
 Sindhri,Pakistan,MPD,Middle East
+Singapore Return,Singapore,SIN,Asia
+Singaporec,Singapore,SIN,Asia
+Sinhapore,Singapore,SIN,Asia
+Singaporw,Singapore,SIN,Asia
+Singapoe,Singapore,SIN,Asia
+singapore,Singapore,SIN,Asia
+Singapore,Singapore,SIN,Asia
+Singapore Changi,Singapore,SIN,Asia
 Singapore - Changi,Singapore,SIN,Asia
 Singapore - Paya Lebar,Singapore,QPG,Asia
 Singleton,Australia,SIX,South Pacific
@@ -1581,6 +1814,7 @@ Sogndal,Norway,SOG,Europe
 "South Bend, IN",USA,SBN,North America
 "South Indian Lake, MB",Canada,XSI,North America
 South Molle Island,Australia,SOI,South Pacific
+Southampton,United Kingdom,SOU,Europe
 Southampton - Eastleigh,United Kingdom,SOU,Europe
 Southend,United Kingdom,SEN,Europe
 Split,Croatia (Hrvatska),SPU,Eastern Europe
@@ -1595,32 +1829,43 @@ St. Etienne,France,EBU,Europe
 "St. George, UT",USA,SGU,North America
 St. John's,Canada,YYT,North America
 St. Kitts,St. Kitts And Nevis,SKB,Caribbean
+St Louis,USA,STL,North America
 "St. Louis - Lambert, MO",USA,STL,North America
 St. Lucia Hewanorra,St. Lucia,UVF,Caribbean
 St. Lucia Vigle,St. Lucia,SLU,Caribbean
 St. Marteen,Netherlands Antilles,SXM,Caribbean
 St. Martin,St. Martin,SFG,Caribbean
+St.Petersburg,Russia,LED,Eastern Europe
 St Petersburgh,Russia,LED,Eastern Europe
+Saint-Petersburg,Russia,LED,Eastern Europe
+St Petersburg,Russia,LED,Eastern Europe
+Saint Petersburg,Russia,LED,Eastern Europe
 St. Petersburg (Leningrad) - Pulkovo,Russia,LED,Eastern Europe
 "St. Pierre, NF",Canada,FSP,North America
 St. Thomas,Virgin Islands,STT,Caribbean
 St. Vincent,St. Vincent,SVD,Caribbean
+London Stansted,United Kingdom,STN,Europe
+London Heatrhow,United Kingdom,STN,Europe
+Stansted,United Kingdom,STN,Europe
 Stansted (London),United Kingdom,STN,Europe
 "State College/Belefonte, PA",USA,SCE,North America
 Stavanger,Norway,SVG,Europe
 "Steamboat Springs, CO",USA,HDN,North America
 Stettin,Poland,SZZ,Europe
+Stockholm,Sweden,ARN,Europe
 Stockholm - Arlanda,Sweden,ARN,Europe
 Stockholm - Bromma,Sweden,BMA,Europe
 Stockholm Metropolitan Area,Sweden,STO,Europe
 "Stockton, CA",USA,SCK,North America
 Stornway,United Kingdom,SYY,Europe
+Strasbourg,France,SXB,Europe
 Strassburg,France,SXB,Europe
 Streaky Bay,Australia,KBY,South Pacific
 Stuttgart,Germany,STR,Europe
 Stuttgart - Echterdingen,Germany,STR,Europe
 Sui,Pakistan,SUL,Middle East
 Sukkur,Pakistan,SKZ,Middle East
+Sulaymaniyah,Iraq,ISU,Middle East
 Sumburgh (Shetland),United Kingdom,LSI,Europe
 "Sun Valley, ID",USA,SUN,North America
 Sundsvall,Sweden,SDL,Europe
@@ -1630,19 +1875,25 @@ Surabaya - Juanda,Indonesia,SUB,Southeast Asia
 Surat,India,STV,Asia
 Suva/Nausori,Fiji,SUV,South Pacific
 Swakopmund,Namibia,SWP,Africa
+sydney,Australia,SYD,South Pacific
 Sydney,Australia,SYD,South Pacific
 Sydney - Kingsford Smith,Australia,SYD,South Pacific
 Sylhet,Bangladesh,ZYL,Asia
 "Syracuse, NY",USA,SYR,North America
 Tabuk,Saudi Arabia,TUU,Middle East
 Taif,Saudi Arabia,TIF,Middle East
+TEP,Taiwan,TPE,Asia
+Taipei Taoyuan Airport,Taiwan,TPE,Asia
+Taipei,Taiwan,TPE,Asia
 Taipei - Chiang Kai Shek,Taiwan,TPE,Asia
 Taipei - Sung Shan,Taiwan,TAY,Asia
 Taiyuan,"Shanxi, China",TYN,Asia
 Takamatsu,Japan,TAK,Asia
 "Talkeetna, AK",USA,TKA,North America
 "Tallahassee, FL",USA,TLH,North America
+Tallinn,Estonia,QUF,Eastern Europe
 Tallinn - Pirita Harbour,Estonia,QUF,Eastern Europe
+Tallin,Estonia,TLL,Eastern Europe
 Tallinn - Ulemiste,Estonia,TLL,Eastern Europe
 "Tampa Int'l, FL",USA,TPA,North America
 Tampere,Finland,TMP,Europe
@@ -1654,13 +1905,20 @@ Targovishte,Bulgaria,TGV,Eastern Europe
 Tashkent,Uzbekistan,TAS,Asia
 Tashkent - Vostochny,Uzbekistan,TAS,Asia
 Tawau,Malaysia,TWU,Southeast Asia
+Georgia,Georgia,TBS,Eastern Europe
 Tbilisi,Georgia,TBS,Eastern Europe
+Tblisi,Georgia,TBS,Eastern Europe
 Tbilisi - Novo Alexeyevka,Georgia,TBS,Eastern Europe
 Te Anau,New Zealand,TEU,South Pacific
 "Teesside, Durham Tees Valley",United Kingdom,MME,Europe
 Tegucigalpa,Honduras,TGU,Central America
-Tehran,Iran,THR,Middle East
+Imam Khomeini,Iran,IKA,Middle East
+Tehran,Iran,IKA,Middle East
+Teheran,Iran,IKA,Middle East
 Tehran (Teheran) - Mehrabad,Iran,THR,Middle East
+Tel-Aviv,Israel,TLV,Middle East
+Tel Aviv,Israel,TLV,Middle East
+Tel Avivi,Israel,TLV,Middle East
 Tel Aviv - Ben Gurion Int'l,Israel,TLV,Middle East
 "Telluride, CO",USA,TEX,North America
 Temora,Australia,TEM,South Pacific
@@ -1676,9 +1934,11 @@ Terrace,Canada,YXT,North America
 "Texarkana, AR",USA,TXK,North America
 Thaba'Nchu,South Africa,TCU,Africa
 The Pas,Canada,YQD,North America
+Thessaloniki,Greece,SKG,Europe
 Thessaloniki - Makedonia Apt.,Greece,SKG,Europe
 "Thief River Falls, MN",USA,TVF,North America
 Thira,Greece,JTR,Europe
+Trivandrum,India,TRV,Asia
 Thiruvananthapuram,India,TRV,Asia
 Thisted,Denmark,TED,Europe
 Thompson,Canada,YTH,North America
@@ -1689,13 +1949,23 @@ Tianjin,China,TSN,Asia
 Tijuana - Rodriguez,Mexico,TIJ,North America
 Tioman,Indonesia,TOD,Southeast Asia
 Tirana - Rinas,Albania,TIA,Eastern Europe
+Tirana,Albania,TIA,Eastern Europe
 Tiruchirapally,India,TRZ,Asia
 Tivat,Yugoslavia,TIV,Eastern Europe
 Tobago,Tobago,TAB,Caribbean
 Tokushima,Japan,TKS,Asia
 Tokyo,Japan,TYO,Asia
 Tokyo Haneda,Japan,HND,Asia
+Haneda,Japan,HND,Asia
+Tokyo-Haneda,Japan,HND,Asia
 Tokyo - Haneda,Japan,HND,Asia
+Tokyo,Japan,NRT,Asia
+Tokyo ta,Japan,NRT,Asia
+Narita Tokyo,Japan,NRT,Asia
+"Narita, Tokyo",Japan,NRT,Asia
+Narita,Japan,NRT,Asia
+Tokyo Narita,Japan,NRT,Asia
+Tokyo Narita (NRT),Japan,NRT,Asia
 Tokyo - Narita,Japan,NRT,Asia
 "Toledo, OH",USA,TOL,North America
 Tom Price,Australia,TPR,South Pacific
@@ -1705,6 +1975,7 @@ Toronto - Lester B. Pearson,Canada,YYZ,North America
 Toronto Island,Canada,YTZ,North America
 Tortola,Virgin Islands,EIS,Caribbean
 Touho,New Caledonia,TOU,South Pacific
+Toulouse,France,TLS,Europe
 Toulouse - Blagnac,France,TLS,Europe
 Townsville,Australia,TSV,South Pacific
 Toyama,Japan,TOY,Asia
@@ -1719,9 +1990,12 @@ Tripoli - Tripoli Int'l,Libya,TIP,Africa
 Tromsoe,Norway,TOS,Europe
 Trondheim,Norway,TRD,Europe
 Tsumeb,Namibia,TSB,Africa
+Tsushima,Japan,TSJ,Asia
 "Tucson, AZ",USA,TUS,North America
 "Tulepo, MS",USA,TUP,North America
 "Tulsa, OK",USA,TUL,North America
+Tunisia,Tunisia,TUN,Africa
+Tunis,Tunisia,TUN,Africa
 Tunis - Carthage,Tunisia,TUN,Africa
 Turbat,Pakistan,TUK,Middle East
 Turin,Italy,TRN,Europe
@@ -1761,6 +2035,7 @@ Varkaus,Finland,VRK,Europe
 Varna,Bulgaria,VAR,Eastern Europe
 Vasteras,Sweden,VST,Europe
 Velikiye Luki (Welikije Luki),Russia,VLU,Eastern Europe
+Venice,Italy,VCE,Europe
 Venice - Marco Polo,Italy,VCE,Europe
 Veracruz,Mexico,VER,North America
 "Vernal, UT",USA,VEL,North America
@@ -1770,6 +2045,7 @@ Verona (Brescia) Montichiari,Italy,VBS,Europe
 Victoria,Canada,YYJ,North America
 Victoria Falls,Zimbabwe,VFA,Africa
 Vidin,Bulgaria,VID,Eastern Europe
+Vientiane,Laos,VTE,Southeast Asia
 Vientiane - Wattay,Laos,VTE,Southeast Asia
 Vigo,Spain,VGO,Europe
 Villahermosa,Mexico,VSA,North America
@@ -1782,12 +2058,17 @@ Vryheid,South Africa,VYD,Africa
 Wabush,Canada,YWK,North America
 "Waco, TX",USA,ACT,North America
 Wagga,Australia,WGA,South Pacific
+Wakkanai,Japan,WKJ,Asia
 "Walla Walla, WA",USA,ALW,North America
 Wallis,Wallis and Futuna Islands,WLS,South Pacific
 Walvis Bay,South Africa,WVB,Africa
 Warrnambool,Australia,WMB,South Pacific
 Warsaw,Poland,WAW,Europe
+Washington DC,USA,BWI,North America
+Washington,USA,BWI,North America
 Washington DC - Baltimore Washington Int'l,USA,BWI,North America
+Dulles,USA,IAD,North America
+Washington Dulles,USA,IAD,North America
 Washington DC - Dulles Int'l,USA,IAD,North America
 Washington DC - Ronald Reagan National,USA,DCA,North America
 "Washington, DC",USA,WAS,North America
@@ -1812,6 +2093,7 @@ Whyalla,Australia,WYA,South Pacific
 "Wichita, KS",USA,ICT,North America
 Wick,United Kingdom,WIC,Europe
 Wickham,Australia,WHM,South Pacific
+Wien,Austria,VIE,Europe
 Vienna,Austria,VIE,Europe
 Wien (Vienna) - Vienna Int'l,Austria,VIE,Europe
 "Wiesbaden, Air Base",Germany,WIE,Europe
@@ -1823,6 +2105,7 @@ Vilnius,Lithuania,VNO,Eastern Europe
 Wilna (Vilnius),Lithuania,VNO,Eastern Europe
 Wiluna,Australia,WUN,South Pacific
 Windhoek - Eros,Namibia,ERS,Africa
+Windhoek,Namibia,WDH,Africa
 Windhoek - Hosea Kutako Int'l,Namibia,WDH,Africa
 Windsor Ontario,Canada,YQG,North America
 Winnipeg Int'l,Canada,YWG,North America
@@ -1835,6 +2118,7 @@ Woomera,Australia,UMR,South Pacific
 Wuhan,"Hubei, China",WUH,Asia
 Wyndham,Australia,WYN,South Pacific
 Xiamen,"Fujian, China",XMN,Asia
+Xi'an,"Shaanxi, China",XIY,Asia
 Xi'an - Xianyang,"Shaanxi, China",XIY,Asia
 "Yakima, WA",USA,YKM,North America
 "Yakutat, AK",USA,YAK,North America
@@ -1844,6 +2128,7 @@ Yamoussoukro,C�te d'Ivoire (Ivory Coast),ASK,Africa
 Yanbu,Saudi Arabia,YNB,Middle East
 Yangon,Myanmar (Burma),RGN,Southeast Asia
 Yangon (Rangoon) - Mingaladon,Myanmar (Burma),RGN,Southeast Asia
+Yaoundé,Cameroon,YAO,Southeast Asia
 Yaounde,Cameroon,YAO,Southeast Asia
 Yellowknife,Canada,YZF,North America
 Yokohama,Japan,YOK,Asia
@@ -1853,6 +2138,7 @@ Zadar,Croatia (Hrvatska),ZAD,Eastern Europe
 Zagreb,Croatia (Hrvatska),ZAG,Eastern Europe
 Zagreb - Pleso,Croatia (Hrvatska),ZAG,Eastern Europe
 Zakynthos,Greece,ZTH,Europe
+Zanzibar,Zanzibar,ZNZ,Africa
 Zaragoza,Spain,ZAZ,Europe
 Zhob,Pakistan,PZH,Middle East
 Zinder,Niger,ZND,Africa
