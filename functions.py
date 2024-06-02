@@ -100,3 +100,10 @@ def lookup_city(airport_string):
         display(city)
         return city.iloc[0]
     
+### CAN'T get this function to work in notebook
+def find_airport_code(origin):
+    if origin in airports_origins:
+        city_rows = airport_codes[airport_codes['City'] == origin]
+        if not city_rows.empty:
+            return city_rows['Code'].values[0]  # Assuming there is at least one matching airport code for the city
+    return origin
