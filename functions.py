@@ -39,16 +39,11 @@ def blob_function(df):
 
 def column_work(df):
     
-    #create new db with only the needed columns
-    
     df_new = df[['Title', 'Airline', 'Reviews',
        'Type of Traveller', 'Month Flown', 'Route', 'Class', 'Seat Comfort',
        'Staff Service', 'Food & Beverages', 'Inflight Entertainment',
        'Value For Money', 'Overall Rating', 'Recommended']]
     
-    #split the month flown column into two and make the month into a number
-        # first map the month names to their numbers
-
     num_mon = {'January': 1, 'February': 2, 'March': 3, 'April': 4, 'May': 5, 'June': 6,
                 'July': 7, 'August': 8, 'September': 9, 'October': 10, 'November': 11, 'December': 12}
 
@@ -100,10 +95,20 @@ def lookup_city(airport_string):
         display(city)
         return city.iloc[0]
     
-### CAN'T get this function to work in notebook
-def find_airport_code(origin):
-    if origin in airports_origins:
-        city_rows = airport_codes[airport_codes['City'] == origin]
-        if not city_rows.empty:
-            return city_rows['Code'].values[0]  # Assuming there is at least one matching airport code for the city
-    return origin
+
+
+def find_airport_code(origin, airport_codes):
+       airports_origins = airport_codes['City'].unique()
+       if origin in airports_origins:
+           city_rows = airport_codes[airport_codes['City'] == origin]
+           if not city_rows.empty:
+               return city_rows['Code'].values[0]
+       return origin
+
+def find_airport_city(origin, airport_codes):
+       airports_origins = airport_codes['Code'].unique()
+       if origin in airports_origins:
+           city_rows = airport_codes[airport_codes['Code'] == origin]
+           if not city_rows.empty:
+               return city_rows['City'].values[0]
+       return origin
