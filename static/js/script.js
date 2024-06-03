@@ -13,4 +13,17 @@ const init = async() => {
 
 init();
 
-const url = `http://api.openweathermap.org/geo/1.0/direct?limit=5&appid=${api_key}&q=`;
+var data = [
+    {
+      domain: { x: [0, 1], y: [0, 1] },
+      value: 450,
+      title: { text: "<b>Satisfaction Gauge</b>" },
+      type: "indicator",
+      mode: "gauge+number",
+      delta: { reference: 400 },
+      gauge: { axis: { range: [null, 500] } }
+    }
+  ];
+  
+  var layout = { width: '40%', height: 400, paper_bgcolor: 'white'};
+  Plotly.newPlot('gauge', data, layout);

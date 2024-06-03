@@ -18,13 +18,42 @@ nav {
     padding: 10px;
     border-bottom: 5px solid white;
 }
-#map {
+
+#container {
     width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#map {
     height: 40vh;
-    margin: 5%;
+    margin: 5% 0;
     background: beige;
-    border: 2px solid black;
     border-radius: 8px;
 }
 
 /* additional aesthetics for gauges/charts */
+#src_dst {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+label {
+    width: 40%;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+select {
+    width: 40%;
+    border-radius: 5px;
+    height: 2rem;
+}
+
+#gauge {
+    width: 40%;
+}
