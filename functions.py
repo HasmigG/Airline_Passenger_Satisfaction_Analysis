@@ -3,6 +3,43 @@ import pandas as pd
 from textblob import TextBlob
 warnings.filterwarnings('ignore')
 
+
+def column_work(df):
+
+    num_mon = {'January': 1, 'February': 2, 'March': 3, 'April': 4, 'May': 5, 'June': 6,
+                'July': 7, 'August': 8, 'September': 9, 'October': 10, 'November': 11, 'December': 12}
+    
+    columns_to_keep = ['Title', 'Airline', 'Reviews',
+        'Type of Traveller', 'Month Flown', 'Route', 'Class', 'Seat Comfort', 
+        'Staff Service', 'Food & Beverages', 'Inflight Entertainment',
+        'Value For Money', 'Overall Rating', 'Recommended']
+
+    df = df[columns_to_keep]
+
+    df['Year Flown'] = df['Month Flown'].str.split().str[1]
+    df['Month Flown'] = df['Month Flown'].str.split().str[0].map(num_mon)
+
+    df.head()
+
+    return df
+
+def column_work_df_new(df):
+    
+    df_new = df[['Title', 'Airline', 'Reviews',
+       'Type of Traveller', 'Month Flown', 'Route', 'Class', 'Seat Comfort',
+       'Staff Service', 'Food & Beverages', 'Inflight Entertainment',
+       'Value For Money', 'Overall Rating', 'Recommended']]
+    
+    num_mon = {'January': 1, 'February': 2, 'March': 3, 'April': 4, 'May': 5, 'June': 6,
+                'July': 7, 'August': 8, 'September': 9, 'October': 10, 'November': 11, 'December': 12}
+
+    df_new['Year Flown'] = df_new['Month Flown'].str.split().str[1]
+    df_new['Month Flown'] = df_new['Month Flown'].str.split().str[0].map(num_mon)
+
+    df_new.head()
+
+    return df_new
+
 def blob_function(df):
 
     # extract the comments and ratings into a list
@@ -36,25 +73,6 @@ def blob_function(df):
 
     return df
 
-
-def column_work(df):
-    
-    df_new = df[['Title', 'Airline', 'Reviews',
-       'Type of Traveller', 'Month Flown', 'Route', 'Class', 'Seat Comfort',
-       'Staff Service', 'Food & Beverages', 'Inflight Entertainment',
-       'Value For Money', 'Overall Rating', 'Recommended']]
-    
-    num_mon = {'January': 1, 'February': 2, 'March': 3, 'April': 4, 'May': 5, 'June': 6,
-                'July': 7, 'August': 8, 'September': 9, 'October': 10, 'November': 11, 'December': 12}
-
-    df_new['Year Flown'] = df_new['Month Flown'].str.split().str[1]
-    df_new['Month Flown'] = df_new['Month Flown'].str.split().str[0].map(num_mon)
-
-    df_new.head()
-
-    return df_new
-
-
 def split_to_via(df, column):
     # Split the text based on separators (to, via)
     split_values = df[column].str.split(r'(?<=\bto\b)|(?<=\bvia\b)', expand=True)
@@ -69,6 +87,32 @@ def split_to_via(df, column):
     
     return df
 
+import re
+
+def split_via(row):
+    # Define the user-defined separators
+    user_seps = r'[/&-and]'
+    
+    # Use regular expression to split on any user-defined separator
+    split_values = re.split(user_seps, row['Via'], maxsplit=1)
+        
+    # If the split returns more than one value, return the split values
+    if len(split_values) > 1:
+       return split_values
+    # If no separator found, return the original value and None
+    else:
+        return [row['Via'], None]
+    
+def split_via_2(row):
+    if pd.notnull(row['Via']):  # Check if the value is not None
+        via = row['Via'].split(' / ')
+        if len(via) > 1:
+            row['Via'] = via[0]
+            row['Via_2'] = via[1]
+        else:
+            row['Via_2'] = None
+    return row
+
 airport_codes = pd.read_csv('Resources/airports_utf.csv')
 
 def lookup_code(airport_string):
@@ -82,7 +126,6 @@ def lookup_code(airport_string):
         display(code)
         return code.iloc[0]
         
-
 def lookup_city(airport_string):
     if len(airport_string) == 3 and not airport_string.isupper():
         # city = airport_codes.loc[airport_codes['Code'] == airport_string, 'City']
@@ -95,8 +138,6 @@ def lookup_city(airport_string):
         display(city)
         return city.iloc[0]
     
-
-
 def find_airport_code(origin, airport_codes):
        airports_origins = airport_codes['City'].unique()
        if origin in airports_origins:

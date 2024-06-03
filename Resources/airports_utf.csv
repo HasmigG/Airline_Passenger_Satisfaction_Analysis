@@ -153,6 +153,7 @@ Bamaga,Australia,ABM,South Pacific
 Bamako,Mali,BKO,Africa
 Bambari,Central African Republic,BBY,Africa
 Bandar Seri Begawan,Brunei,BWN,Southeast Asia
+Bangaluru,India,BLR,Asia
 Begaluru,India,BLR,Asia
 "Bangalore, India",India,BLR,Asia
 Bangalore,India,BLR,Asia
@@ -503,9 +504,13 @@ Dhaka,Bangladesh,DAC,Asia
 Dinard,France,DNR,Europe
 Djerba,Tunisia,DJE,Africa
 Djibouti,Djibouti,JIB,Africa
+Qatar,Qatar,DOH,Middle East
 Hamad,Qatar,DOH,Middle East
+Dha,Qatar,DOH,Middle East
 Diha,Qatar,DOH,Middle East
 Dohs,Qatar,DOH,Middle East
+dona,Qatar,DOH,Middle East
+doha,Qatar,DOH,Middle East
 Doha,Qatar,DOH,Middle East
 Dongguan,"Guangdong, China",DGM,Asia
 Dortmund,Germany,DTM,Europe
@@ -514,6 +519,7 @@ Cameroon,Cameroon,DLA,Southeast Asia
 Douala,Cameroon,DLA,Southeast Asia
 Dresden,Germany,DRS,Europe
 Dubia,United Arab Emirates,DXB,Middle East
+dubai,United Arab Emirates,DXB,Middle East
 Dubai,United Arab Emirates,DXB,Middle East
 Dubbo,Australia,DBO,South Pacific
 Dublin,Ireland,DUB,Europe
@@ -812,6 +818,11 @@ Ishigaki,Japan,LSG,Asia
 Islamabad,Pakistan,ISB,Middle East
 Islamabad - Islamabad Int'l,Pakistan,ISB,Middle East
 Isle of Man,United Kingdom,IOM,Europe
+Sabiha,Turkey,SAW,Middle East
+"Istanbul,",Turkey,SAW,Middle East
+"Istanbul SAW",SAW,Middle East
+Instabul,Turkey,SAW,Middle East
+Instambul,Turkey,SAW,Middle East
 Istanbul Sabiha,Turkey,SAW,Middle East
 İstanbu,Turkey,IST,Middle East
 istanbul,Turkey,IST,Middle East
@@ -1517,6 +1528,7 @@ Paraburdoo,Australia,PBO,South Pacific
 Paramaribo - Zanderij Int'l,Suriname,PBM,Africa
 Paris,France,PAR,Europe
 "Paris, France",France,PAR,Europe
+Paris cdg,France,CDG,Europe
 Paris-CDG,France,CDG,Europe
 París CDG,France,CDG,Europe
 Paris CDG,France,CDG,Europe
@@ -1784,6 +1796,7 @@ Santiago de Compostela,Spain,SCQ,Europe
 Santo,Vanuatu,SON,South Pacific
 Santo Domingo,Dominican Republic,SDQ,Caribbean
 Sao Luis,Brazil,SLZ,South America
+Sao Paolo,Brazil,SAO,South America
 Sao Paulo,Brazil,SAO,South America
 Sao Paulo - Congonhas,Brazil,CGH,South America
 Sao Paulo - Guarulhos,Brazil,GRU,South America
@@ -2154,6 +2167,7 @@ Washington Dulles,USA,IAD,North America
 Washington DC - Dulles Int'l,USA,IAD,North America
 Washington DC - Ronald Reagan National,USA,DCA,North America
 "Washington, DC",USA,WAS,North America
+"Washington, D.C.",USA,WAS,North America
 "Waterloo, IA",USA,ALO,North America
 "Watertown, SD",USA,ATY,North America
 "Wausau/Stevens Point, WI",USA,CWA,North America
