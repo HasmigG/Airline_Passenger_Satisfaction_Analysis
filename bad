@@ -1,0 +1,127 @@
+#some work on the columns #1
+
+def column_work(df):
+    
+    #create new db with only the needed columns
+    
+    df_new = df[['Title', 'Airline', 'Reviews',
+       'Type of Traveller', 'Month Flown', 'Route', 'Class', 'Seat Comfort',
+       'Staff Service', 'Food & Beverages', 'Inflight Entertainment',
+       'Value For Money', 'Overall Rating', 'Recommended']]
+    
+    #split the month flown column into two and make the month into a number
+        # first map the month names to their numbers
+
+    num_mon = {'January': 1, 'February': 2, 'March': 3, 'April': 4, 'May': 5, 'June': 6,
+                'July': 7, 'August': 8, 'September': 9, 'October': 10, 'November': 11, 'December': 12}
+
+    df_new['Year Flown'] = df_new['Month Flown'].str.split().str[1]
+    df_new['Month Flown'] = df_new['Month Flown'].str.split().str[0].map(num_mon)
+    #df_new.loc[:,'Year Flown'] = df_new[:'Month Flown'].str.split().str[1]
+    #df_new.loc[:, 'Month Flown'] = df_new.loc[:, 'Month Flown'].str.split().str[0].map(num_mon)
+
+    df_new.head()
+
+    return df_new
+
+
+
+# split the route column #2
+def split_to_via(df):
+    # Split the text based on separators (to, via)
+    split_values = df['Route'].str.split(r'(?<=\bto\b)|(?<=\bvia\b)', expand=True)
+    
+    # remove to and via from the split columns
+    split_values = split_values.apply(lambda x: x.str.replace(r'\bto\b|\bvia\b', '', regex=True))
+    
+    # Create new columns and load in the split values
+    df['Origin'] = split_values[0].str.strip()
+    df['Destination'] = split_values[1].str.strip()
+    
+    # Check if the 'Via' column exists and handle multiple cities
+    if 2 in split_values.columns:
+        df['Via'] = split_values[2].str.replace('/', '').str.split().str[0].str.strip()
+    else:
+        df['Via'] = ''
+    
+    return df
+
+
+## text blobs #3
+def blob_function(df):
+
+    # extract the comments and ratings into a list
+
+    titles = df['Title'].to_list()
+    comments = df['Reviews'].to_list()
+
+    # create a blank list to hold the blob
+
+    polarities = []
+    subjectivities = []
+
+    # Analyze the sentiment of each comment 
+
+    for comment in comments:
+      blob = TextBlob(comment)
+      polarity = blob.sentiment.polarity
+      subjectivity = blob.sentiment.subjectivity
+      polarities.append(polarity)
+      subjectivities.append(subjectivity)
+    
+     
+    # add values to new df columns
+
+    df['Comment Polarity'] = pd.Series(polarities)
+    df['Comment Subjectivity'] = pd.Series(subjectivities)
+
+    # erase lists to hold the blob
+
+    polarities = []
+    subjectivities = []    
+
+    # Analyze the sentiment of each title
+
+    for title in titles:
+      blob = TextBlob(title)
+      polarity = blob.sentiment.polarity
+      subjectivity = blob.sentiment.subjectivity
+      polarities.append(polarity)
+      subjectivities.append(subjectivity)
+
+     # add values to new df columns
+
+    df['Title Polarity'] = pd.Series(polarities)
+    df['Title Subjectivity'] = pd.Series(subjectivities)
+    
+    return df
+
+# begin the one hot encoding #4
+
+def one_hot_e (df):
+    # get dummies 
+    df = pd.get_dummies(df, columns = ['Class', 'Type of Traveller'])
+    return df
+
+# more column work #5
+
+def col_work_dos(df):
+    #drop some columns
+    
+    df_renew = df[[ 'Airline', 'Month Flown', 'Year Flown', 'Seat Comfort',
+       'Staff Service', 'Food & Beverages', 'Inflight Entertainment',
+       'Value For Money', 'Overall Rating', 'Recommended', 
+       'Origin', 'Destination', 'Via', 'Comment Polarity',
+       'Comment Subjectivity', 'Title Polarity', 'Title Subjectivity',
+       'Class_Business Class', 'Class_Economy Class', 'Class_First Class',
+       'Class_Premium Economy', 'Type of Traveller_Business',
+       'Type of Traveller_Couple Leisure', 'Type of Traveller_Family Leisure',
+       'Type of Traveller_Solo Leisure']]
+    
+    
+    # reformat recommended column values
+    df_renew ['Recommended'] = df_renew['Recommended'].replace({'no':0, 'yes':1})
+
+    return df_renew
+
+
