@@ -25,36 +25,35 @@ def column_work(df):
     return df
 
 def blob_function(df):
-
     # extract the comments and ratings into a list
-
-    ratings = df['Overall Rating'].to_list()
+    titles = df['Title'].to_list()
     comments = df['Reviews'].to_list()
-
     # create a blank list to hold the blob
-
     polarities = []
     subjectivities = []
-
     # Analyze the sentiment of each comment
-
     for comment in comments:
       blob = TextBlob(comment)
       polarity = blob.sentiment.polarity
       subjectivity = blob.sentiment.subjectivity
       polarities.append(polarity)
       subjectivities.append(subjectivity)
-    
-      print(f"Comment: {comment}")
-      print(f"Polarity: {polarity}")
-      print(f"Subjectivity: {subjectivity}")
-      print()
-
     # add values to new df columns
-
-    df['Polarity'] = pd.Series(polarities)
-    df['Subjectivity'] = pd.Series(subjectivities)
-
+    df['Comment Polarity'] = pd.Series(polarities)
+    df['Comment Subjectivity'] = pd.Series(subjectivities)
+    # erase lists to hold the blob
+    polarities = []
+    subjectivities = []
+    # Analyze the sentiment of each title
+    for title in titles:
+      blob = TextBlob(title)
+      polarity = blob.sentiment.polarity
+      subjectivity = blob.sentiment.subjectivity
+      polarities.append(polarity)
+      subjectivities.append(subjectivity)
+     # add values to new df columns
+    df['Title Polarity'] = pd.Series(polarities)
+    df['Title Subjectivity'] = pd.Series(subjectivities)
     return df
 
 # split the route column #2
