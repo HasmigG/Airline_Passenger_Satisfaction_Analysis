@@ -86,7 +86,7 @@ def one_hot_e (df):
 def col_work_dos(df):
     #drop some columns
     
-    df_renew = df[[ 'Airline', 'Month Flown', 'Year Flown', 'Seat Comfort',
+    df = df[[ 'Airline', 'Month Flown', 'Year Flown', 'Seat Comfort',
        'Staff Service', 'Food & Beverages', 'Inflight Entertainment',
        'Value For Money', 'Overall Rating', 'Recommended', 
        'Origin', 'Destination', 'Via', 'Comment Polarity',
@@ -98,9 +98,9 @@ def col_work_dos(df):
     
     
     # reformat recommended column values
-    df_renew ['Recommended'] = df_renew['Recommended'].replace({'no':0, 'yes':1})
+    df ['Recommended'] = df['Recommended'].replace({'no':0, 'yes':1})
 
-    return df_renew
+    return df
 
 airport_codes = pd.read_csv('Resources/airports_utf.csv')
 
@@ -144,43 +144,3 @@ def find_airport_city(origin, airport_codes):
     city_rows = airport_codes[airport_codes['City'] == origin]
     if not city_rows.empty:
         return city_rows['True_City'].values[0]
-
-
-
-# def split_to_via(df, column):
-#     # Split the text based on separators (to, via)
-#     split_values = df[column].str.split(r'(?<=\bto\b)|(?<=\bvia\b)', expand=True)
-    
-#     # remove to and via from the split columns
-#     split_values = split_values.apply(lambda x: x.str.replace(r'\bto\b|\bvia\b', '', regex=True))
-    
-#     # Create new columns and load in the split values
-#     df['Origin'] = split_values[0].str.strip()
-#     df['Destination'] = split_values[1].str.split().str.join(' ').str.strip()
-#     df['Via'] = split_values[2].str.split().str.join(' ').str.strip()
-    
-#     return df
-
-# def split_via(row):
-#     # Define the user-defined separators
-#     user_seps = r'[/&-and]'
-    
-#     # Use regular expression to split on any user-defined separator
-#     split_values = re.split(user_seps, row['Via'], maxsplit=1)
-        
-#     # If the split returns more than one value, return the split values
-#     if len(split_values) > 1:
-#        return split_values
-#     # If no separator found, return the original value and None
-#     else:
-#         return [row['Via'], None]
-    
-# def split_via_2(row):
-#     if pd.notnull(row['Via']):  # Check if the value is not None
-#         via = row['Via'].split(' / ')
-#         if len(via) > 1:
-#             row['Via'] = via[0]
-#             row['Via_2'] = via[1]
-#         else:
-#             row['Via_2'] = None
-#     return row
