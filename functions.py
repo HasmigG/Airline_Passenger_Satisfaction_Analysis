@@ -147,9 +147,11 @@ def find_airport_code(origin, airport_codes):
        return origin
 
 def find_airport_city(origin, airport_codes):
-       airports_origins = airport_codes['Code'].unique()
-       if origin in airports_origins:
-           city_rows = airport_codes[airport_codes['Code'] == origin]
-           if not city_rows.empty:
-               return city_rows['City'].values[0]
-       return origin
+    airports_origins = airport_codes['Code'].unique()
+    if origin in airports_origins:
+        city_rows = airport_codes[airport_codes['Code'] == origin]
+        if not city_rows.empty:
+            return city_rows['True_City'].values[0]
+    city_rows = airport_codes[airport_codes['City'] == origin]
+    if not city_rows.empty:
+        return city_rows['True_City'].values[0]
