@@ -1,6 +1,9 @@
 import warnings
 import pandas as pd
 from textblob import TextBlob
+from geopy.geocoders import Nominatim
+import time
+from math import ceil
 warnings.filterwarnings('ignore')
 import re
 
@@ -82,7 +85,6 @@ def one_hot_e (df):
     df = pd.get_dummies(df, columns = ['Class', 'Type of Traveller'])
     return df
 
-
 def col_work_dos(df):
     #drop some columns
     
@@ -145,3 +147,13 @@ def find_airport_city(origin, airport_codes):
     city_rows = airport_codes[airport_codes['City'] == origin]
     if not city_rows.empty:
         return city_rows['True_City'].values[0]
+
+def get_lat_long(airport_code):
+    geolocator = Nominatim(user_agent="custom_user_agent")
+    location = geolocator.geocode(f"{airport_code} airport")
+    print(airport_code, location)
+    time.sleep(1)
+    if location:
+        return location.latitude, location.longitude
+    else:
+        return None, None
