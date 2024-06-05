@@ -14,9 +14,11 @@ def home():
 def get_reviews():
     conn = sqlite3.connect('airline_passenger_satisfaction.sqlite')
     db = conn.cursor()
-    results = db.execute('SELECT * FROM airlines_reviews').fetchall()
+    results = db.execute('SELECT * FROM airlines_reviews')
 
-    return jsonify(results)
+    print(results.description[0])
+
+    return jsonify(results.fetchall())
 
 
 

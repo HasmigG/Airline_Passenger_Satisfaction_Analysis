@@ -39,6 +39,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-content: flex-start;
 }
 
 label {
