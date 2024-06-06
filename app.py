@@ -16,9 +16,9 @@ def get_reviews():
     db = conn.cursor()
     results = db.execute('SELECT * FROM airlines_reviews')
 
-    print(results.description[0])
+    cols = [col[0] for col in results.description]
 
-    return jsonify(results.fetchall())
+    return jsonify(results.fetchall(),cols)
 
 
 
