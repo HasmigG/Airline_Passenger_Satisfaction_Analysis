@@ -1,5 +1,6 @@
 import sqlite3
 import sqlalchemy
+import pandas as pd
 from sqlalchemy import create_engine
 from flask import Flask, render_template, jsonify
 
@@ -19,6 +20,15 @@ def get_reviews():
     cols = [col[0] for col in results.description]
 
     return jsonify(results.fetchall(),cols)
+
+@app.route('/api/v1.0/airline_reviews_for_flask')
+def get_flask_reviews():
+    data = pd.read_csv('static/data/airline_reviews_for_flask.csv')
+    reviews = data.to_dict(orient='records')
+    
+    print('Data: ',reviews[0])
+
+    return jsonify(reviews[0])
 
 
 

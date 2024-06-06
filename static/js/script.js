@@ -7,6 +7,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // get routes from flask
 const init = async() => {
     reviews = await ((await fetch('/api/v1.0/airlines_reviews')).json());
+    reviews2 = await ((await fetch('/api/v1.0/airline_reviews_for_flask')).text());
 
     console.log(reviews);
 };
