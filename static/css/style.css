@@ -33,7 +33,6 @@ nav {
     border-radius: 8px;
 }
 
-/* additional aesthetics for gauges/charts */
 #src_dst {
     width: 40%;
     display: flex;

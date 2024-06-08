@@ -13,6 +13,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Airlines Satisfaction Analysis</title>
 
+    <style>
+        #flight-duration {
+            background-color: #f8f8f8;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+            font-size: 16px;
+            text-align: center;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -25,8 +36,10 @@
             <label for="source">Origin</label>
             <label for="destination">Destination</label>
             <select id="source" onchange="getDest(this.value)"></select>
-            <select id="destination"></select>
+            <select id="destination" onchange="newDest()"></select>
 
+            <div id="flight-duration"></div>
+            
 
         </div>
 
